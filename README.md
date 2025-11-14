@@ -1,49 +1,78 @@
-<!-- If you want to make changes to this README, you need to also modify the README.md in the docs folder as well -->
+Echo Hand Battalion (EHB) Aux Mod
+An auxiliary modification for Arma 3 that adds custom weapons, attachments, and equipment for the Echo Hand Battalion.
+Features
 
-<h1 align="center">MOD_TITLE</h1>
-<p align="center">
-    <a href="https://github.com/DartsArmaMods/MOD_REPO/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.3.0-blue?style=flat-square" alt="MOD_TITLE Version">
-    </a>
-    <a href="https://github.com/DartsArmaMods/MOD_REPO/issues">
-        <img src="https://img.shields.io/github/issues-raw/DartsArmaMods/MOD_REPO.svg?style=flat-square&label=Issues" alt="MOD_TITLE Issues">
-    </a>
-    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=MOD_ID">
-        <img src="https://img.shields.io/steam/downloads/MOD_ID.svg?style=flat-square&label=Downloads" alt="MOD_TITLE Downloads">
-    </a>
-    <a href="https://github.com/DartsArmaMods/MOD_REPO/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="MOD_TITLE License">
-    </a>
-    <br>
-    <img src="https://img.shields.io/github/actions/workflow/status/DartsArmaMods/MOD_REPO/check.yml?style=flat-square&label=HEMTT" alt="HEMTT">
-</p>
+Custom weapon configurations based on OPTRE framework
+Specialized attachments and optics
+Custom ammunition types
+Compatible with 505th Expeditionary Force operations
+Integration with existing OPTRE mod systems
 
-<p align="center">
-    <b>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a></b>
-</p>
+Requirements
 
-# Initial Project Setup!
-Delete this section after the project has been initially set up:
-1. Find and replace all instances of `MOD_TITLE` with the mod's name.
-2. Find and replace all instances of `MOD_REPO` with the mod's name *and no spaces*.
-   - This should be the name of the repository on GitHub.
-3. Find and replace all instances of `MOD_PREFIX` with the mod's prefix.
-   - This should be all lowercase.
-4. Find and replace all instances of `MOD_ACRONYM` with the mod's acronym.
-   - This should be all uppercase.
-5. After the initial Steam upload, find and replace all instances of `MOD_ID` with the mod's Steam Workshop id.
+Arma 3 (latest version)
+CBA_A3 - Community Base Addons
+OPTRE - Operation Trebuchet mod
+Any other OPTRE-compatible mods you use
 
-For third parties, make sure to also replace `DartsArmaMods` with your Github username / organization name, and to replace `DartRuffian` with your username.
+Installation
+Method 1: Manual Installation
 
-**MOD_TITLE** (MOD_ACRONYM) aims to...
+Download the latest release from the Releases page
+Extract the @EHB_Aux_Mod folder to your Arma 3 directory
+Launch Arma 3
+In the Arma 3 Launcher, go to "Mods"
+Enable @EHB_Aux_Mod
+Start the game
 
-The project is entirely **open-source** and any contributions are welcome.
+Method 2: Steam Workshop
+Coming soon
+Development
+This mod is built using HEMTT (Hephaestus Arma Modding Tools).
+Building from Source
 
-## Core Features
-- Feature
+Install HEMTT
+Clone this repository
+Run hemtt build in the mod directory
+Built files will be in .hemttout folder
 
-## Contributing
-For new contributers, see the [Contributing Setup & Guidelines](./.github/CONTRIBUTING.md).
+Structure
+EHB-Aux-Mod/
+├── addons/          # Mod components
+├── .hemtt/          # HEMTT configuration
+├── include/         # Header files
+├── tools/           # Build tools
+├── mod.cpp          # Mod configuration
+└── meta.cpp         # Mod metadata
+Credits
 
-## License
-MOD_TITLE is licensed under [APL-ND](./LICENSE.md).
+Echo Hand Battalion Team - Development and testing
+505th Expeditionary Force - Operational support
+OPTRE Team - Base framework and assets
+
+Contributing
+Contributions are welcome! If you find bugs or have suggestions:
+
+Open an issue on GitHub
+Fork the repository
+Create a feature branch
+Submit a pull request
+
+License
+See LICENSE.md for details.
+Support
+For questions or issues:
+
+Open an issue on GitHub Issues
+Contact the Echo Hand Battalion team
+
+Changelog
+Version 1.0.0 (Current)
+
+Initial release
+Custom weapon configurations
+OPTRE-compatible attachments
+Custom ammunition types
+
+
+Note: This mod is designed for use with the Echo Hand Battalion and 505th Expeditionary Force. It may be used by other units with permission.
