@@ -1,0 +1,4 @@
+1||1||7||29||warning||external class OPTRE_32Rnd_762x51_Mag is never used||never used||/addons/weapon/CfgMagazines.hpp
+2||2||7||28||warning||external class OPTRE_36Rnd_95x40_Mag is never used||never used||/addons/weapon/CfgMagazines.hpp
+3||3||7||36||warning||external class OPTRE_32Rnd_762x51_Mag_Tracer is never used||never used||/addons/weapon/CfgMagazines.hpp
+4||4||7||43||warning||external class OPTRE_32Rnd_762x51_Mag_Tracer_Yellow is never used||never used||/addons/weapon/CfgMagazines.hpp

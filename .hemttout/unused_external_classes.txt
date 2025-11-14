@@ -1,0 +1,4 @@
+OPTRE_32Rnd_762x51_Mag - addons/weapon/CfgMagazines.hpp:1:7
+OPTRE_36Rnd_95x40_Mag - addons/weapon/CfgMagazines.hpp:2:7
+OPTRE_32Rnd_762x51_Mag_Tracer - addons/weapon/CfgMagazines.hpp:3:7
+OPTRE_32Rnd_762x51_Mag_Tracer_Yellow - addons/weapon/CfgMagazines.hpp:4:7
