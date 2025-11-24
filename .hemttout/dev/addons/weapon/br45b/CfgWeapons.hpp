@@ -15,14 +15,10 @@ class CfgWeapons {
         };
 
         class Single: Mode_SemiAuto {
-            class StandardSound;
         };
         class FullAuto: Mode_FullAuto {
-            class StandardSound;
         };
-
         class Burst: Mode_Burst {
-            class StandardSound;
         };
     };
 
@@ -87,24 +83,6 @@ class CfgWeapons {
             aiRateOfFire = 2.0;
             aiRateOfFireDispersion = 1;
             aiRateOfFireDistance = 500;
-
-            class StandardSound: StandardSound {
-                class StandardSound {
-                    begin1[] = {"\EHB_Weapons\MA5C\Data\sounds\MA5C_Shot_1.wss",1,1,2000};
-                    closure1[] = {};
-                    closure2[] = {};
-                    soundBegin[] = {"begin1",1};
-                    soundClosure[] = {"closure1",0.5,"closure2",0.5};
-                    soundSetShot[] = {
-                        "jsrs_rifle_shake_soundset",
-                        "jsrs_mk18_shot_soundset",
-                        "jsrs_762x51mm_reverb_soundset",   // or calibre-specific
-                        "jsrs_9x3mm_reflector_soundset"
-                    };
-                    weaponSoundEffect = "DefaultRifle";
-                };
-
-            };
         };
 
         class FullAuto: FullAuto {
@@ -123,24 +101,6 @@ class CfgWeapons {
             aiRateOfFire = 2.0;
             aiRateOfFireDispersion = 1;
             aiRateOfFireDistance = 500;
-
-            class StandardSound: StandardSound {
-                class StandardSound {
-                    begin1[] = {"\EHB_Weapons\MA5C\Data\sounds\MA5C_Shot_1.wss",1,1,2000};
-                    closure1[] = {};
-                    closure2[] = {};
-                    soundBegin[] = {"begin1",1};
-                    soundClosure[] = {"closure1",0.5,"closure2",0.5};
-                    soundSetShot[] = {
-                        "jsrs_rifle_shake_soundset",
-                        "jsrs_mk18_shot_soundset",
-                        "jsrs_762x51mm_reverb_soundset",   // or calibre-specific
-                        "jsrs_9x3mm_reflector_soundset"
-                    };
-                    weaponSoundEffect = "DefaultRifle";
-                };
-
-            };
         };
 
         class Burst: Burst {
@@ -160,10 +120,6 @@ class CfgWeapons {
             aiRateOfFire = 2.0;
             aiRateOfFireDispersion = 1;
             aiRateOfFireDistance = 500;
-
-            class StandardSound: StandardSound {
-                soundSetShot[] = {QCLASS(SoundSet_BR45BShot)};
-            };
         };
     };
 };

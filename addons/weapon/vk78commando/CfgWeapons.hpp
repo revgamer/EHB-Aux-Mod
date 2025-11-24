@@ -14,10 +14,8 @@ class CfgWeapons {
         };
 
         class Single: Mode_SemiAuto {
-            class StandardSound;
         };
         class FullAuto: Mode_FullAuto {
-            class StandardSound;
         };
     };
 
@@ -92,10 +90,6 @@ class CfgWeapons {
             aiRateOfFire = 4.0;
             aiRateOfFireDispersion = 1;
             aiRateOfFireDistance = 800;
-
-            class StandardSound: StandardSound {
-                soundSetShot[] = {QCLASS(SoundSet_VK78CShot)};
-            };
         };
 
         //
@@ -117,10 +111,6 @@ class CfgWeapons {
             aiRateOfFire = 2.0;
             aiRateOfFireDispersion = 1;
             aiRateOfFireDistance = 400;
-
-            class StandardSound: StandardSound {
-                soundSetShot[] = {QCLASS(SoundSet_VK78CShot)};
-            };
         };
     };
 };
