@@ -72,7 +72,7 @@ CWR_OpenStatusMenu = {
     params ["_message"];
     sleep 0.05;
 
-    private _statusList = ["Green", "Yellow", "Orange", "Red", "Black"];
+    private _statusList = ["Combat Ready", "Wounded", "I have casualties on my position"];
     CWR_statusMessageList = _statusList apply { [_message, "[status]", format ["[vl-Status%1]%2", _x, _x]] call CWR_fnc_stringReplace; };
 
     [

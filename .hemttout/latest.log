@@ -1,817 +1,860 @@
-2025-11-24T18:59:52.782123Z TRACE ThreadId(01) version: 1.18.0
-2025-11-24T18:59:52.782218Z TRACE ThreadId(01) platform: windows
-2025-11-24T18:59:52.782233Z TRACE ThreadId(01) args: [
+2025-12-04T22:57:07.449080Z TRACE ThreadId(01) version: 1.18.0
+2025-12-04T22:57:07.449208Z TRACE ThreadId(01) platform: windows
+2025-12-04T22:57:07.449224Z TRACE ThreadId(01) args: [
     "hemtt",
     "launch",
     "default",
 ]
-2025-11-24T18:59:52.783949Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\corra\\AppData\\Roaming\\hemtt"
-2025-11-24T18:59:52.784474Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: ["1124993203", "1260802825", "1572627279", "1779063631", "1923321700", "1960024802", "2291129343", "2695649037", "2776005424", "2794721649", "2888477598", "2915485125", "2931279278", "2933180786", "2958273599", "2975882889", "2987115897", "3038821437", "3038826897", "3122396633", "3165450999", "3255508422", "3283642267", "3283645995", "3283652320", "3300894429", "3325103983", "3328314886", "3390219536", "3391132245", "3421886703", "3423561449", "3469976535", "3489262669", "3499977893", "366423278", "366425329", "450814997", "463939057", "570118882", "623475643", "767380317", "769440155", "784218341", "861133494", "949698441"], dlc: [], presets: ["ebh_main"], optionals: [], mission: Some("EHB_Test.VR"), dev_mission: None, parameters: ["-noSplash", "-showScriptErrors", "-skipIntro", "-world=empty"], executable: None, binarize: None, file_patching: None, instances: None, rapify: None }
-2025-11-24T18:59:52.799027Z DEBUG ThreadId(01) Arma 3 found at: C:\Program Files (x86)\Steam\steamapps\common\Arma 3
-2025-11-24T18:59:52.799058Z TRACE ThreadId(01) Loading preset: ebh_main
-2025-11-24T18:59:52.820408Z TRACE ThreadId(01) Found new mod 893328083 in preset ebh_main
-2025-11-24T18:59:52.820432Z TRACE ThreadId(01) Found new mod 893349825 in preset ebh_main
-2025-11-24T18:59:52.820437Z TRACE ThreadId(01) Found new mod 893339590 in preset ebh_main
-2025-11-24T18:59:52.820441Z TRACE ThreadId(01) Found new mod 463939057 in preset ebh_main
-2025-11-24T18:59:52.820445Z TRACE ThreadId(01) Found new mod 766491311 in preset ebh_main
-2025-11-24T18:59:52.820450Z TRACE ThreadId(01) Found new mod 1911374016 in preset ebh_main
-2025-11-24T18:59:52.820454Z TRACE ThreadId(01) Found new mod 2836999643 in preset ebh_main
-2025-11-24T18:59:52.820458Z TRACE ThreadId(01) Found new mod 2198339170 in preset ebh_main
-2025-11-24T18:59:52.820462Z TRACE ThreadId(01) Found new mod 2372036642 in preset ebh_main
-2025-11-24T18:59:52.820466Z TRACE ThreadId(01) Found new mod 2791403093 in preset ebh_main
-2025-11-24T18:59:52.820470Z TRACE ThreadId(01) Found new mod 667953829 in preset ebh_main
-2025-11-24T18:59:52.820474Z TRACE ThreadId(01) Found new mod 450814997 in preset ebh_main
-2025-11-24T18:59:52.820478Z TRACE ThreadId(01) Found new mod 837729515 in preset ebh_main
-2025-11-24T18:59:52.820483Z TRACE ThreadId(01) Found new mod 2447965207 in preset ebh_main
-2025-11-24T18:59:52.820487Z TRACE ThreadId(01) Found new mod 2511318948 in preset ebh_main
-2025-11-24T18:59:52.820491Z TRACE ThreadId(01) Found new mod 583496184 in preset ebh_main
-2025-11-24T18:59:52.820495Z TRACE ThreadId(01) Found new mod 583544987 in preset ebh_main
-2025-11-24T18:59:52.820499Z TRACE ThreadId(01) Found new mod 1638341685 in preset ebh_main
-2025-11-24T18:59:52.820503Z TRACE ThreadId(01) Found new mod 333310405 in preset ebh_main
-2025-11-24T18:59:52.820507Z TRACE ThreadId(01) Found new mod 2034363662 in preset ebh_main
-2025-11-24T18:59:52.820511Z TRACE ThreadId(01) Found new mod 2699465073 in preset ebh_main
-2025-11-24T18:59:52.820515Z TRACE ThreadId(01) Found new mod 3114421562 in preset ebh_main
-2025-11-24T18:59:52.820519Z TRACE ThreadId(01) Found new mod 1224892496 in preset ebh_main
-2025-11-24T18:59:52.820523Z TRACE ThreadId(01) Found new mod 3149544080 in preset ebh_main
-2025-11-24T18:59:52.820527Z TRACE ThreadId(01) Found new mod 3333302397 in preset ebh_main
-2025-11-24T18:59:52.820531Z TRACE ThreadId(01) Found new mod 3337555434 in preset ebh_main
-2025-11-24T18:59:52.820536Z TRACE ThreadId(01) Found new mod 3421394954 in preset ebh_main
-2025-11-24T18:59:52.820540Z TRACE ThreadId(01) Found new mod 2586652540 in preset ebh_main
-2025-11-24T18:59:52.820544Z TRACE ThreadId(01) Found new mod 1858075458 in preset ebh_main
-2025-11-24T18:59:52.820592Z TRACE ThreadId(01) Found new mod 1808238502 in preset ebh_main
-2025-11-24T18:59:52.820598Z TRACE ThreadId(01) Found new mod 570118882 in preset ebh_main
-2025-11-24T18:59:52.820603Z TRACE ThreadId(01) Found new mod 632435682 in preset ebh_main
-2025-11-24T18:59:52.820607Z TRACE ThreadId(01) Found new mod 782415569 in preset ebh_main
-2025-11-24T18:59:52.820613Z TRACE ThreadId(01) Found new mod 1661066023 in preset ebh_main
-2025-11-24T18:59:52.820617Z TRACE ThreadId(01) Found new mod 3426116212 in preset ebh_main
-2025-11-24T18:59:52.820621Z TRACE ThreadId(01) Found new mod 2461607508 in preset ebh_main
-2025-11-24T18:59:52.820626Z TRACE ThreadId(01) Found new mod 1808723766 in preset ebh_main
-2025-11-24T18:59:52.820630Z TRACE ThreadId(01) Found new mod 3466650326 in preset ebh_main
-2025-11-24T18:59:52.820634Z TRACE ThreadId(01) Found new mod 2572487482 in preset ebh_main
-2025-11-24T18:59:52.820638Z TRACE ThreadId(01) Found new mod 3032643455 in preset ebh_main
-2025-11-24T18:59:52.820642Z TRACE ThreadId(01) Found new mod 750186990 in preset ebh_main
-2025-11-24T18:59:52.820646Z TRACE ThreadId(01) Found new mod 2387297579 in preset ebh_main
-2025-11-24T18:59:52.820650Z TRACE ThreadId(01) Found new mod 1779063631 in preset ebh_main
-2025-11-24T18:59:52.821283Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod"
-2025-11-24T18:59:52.821293Z TRACE ThreadId(01) using project folder: "F:\\EBH Dev Works\\EBH-Aux-Mod"
-2025-11-24T18:59:52.821325Z TRACE ThreadId(01) using out folder: "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout"
-2025-11-24T18:59:52.821537Z TRACE ThreadId(01) using build folder: "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev"
-2025-11-24T18:59:52.830099Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/objects/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.836692Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/objects/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.837386Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/objects/resupply/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.840894Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/infantry/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.840998Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/infantry/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.848470Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/chat_wheel_redux/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.848664Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/chat_wheel_redux/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.866795Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapon/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.874137Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.875287Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/m295bmr/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.876159Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/vk78commando/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.876804Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/m73/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.877635Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/br45b/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.878187Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/accessories/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.879039Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/m247/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.879510Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/ma37k/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.879883Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/mhg16(wip)/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.880744Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/ma5c/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.885222Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapon/m6g/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.885753Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/common/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.892479Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/common/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.894098Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.894570Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.906712Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T18:59:52.907195Z  INFO ThreadId(01) Config loaded for Echo Hand Battalion - Aux Mod 1.3.0.10
-2025-11-24T18:59:52.907273Z TRACE ThreadId(01) Scanning F:\EBH Dev Works\EBH-Aux-Mod\addons for addons
-2025-11-24T18:59:52.908283Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\corra\\AppData\\Roaming\\hemtt"
-2025-11-24T18:59:52.909326Z  INFO ThreadId(01) Creating `dev` version
-2025-11-24T18:59:52.909408Z TRACE ThreadId(01) phase: init (BOM Check) (start)
-2025-11-24T18:59:52.909427Z TRACE ThreadId(01) phase: init (BOM Check) (done)
-2025-11-24T18:59:52.909432Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
-2025-11-24T18:59:52.909437Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
-2025-11-24T18:59:52.909440Z TRACE ThreadId(01) phase: init (Hooks) (start)
-2025-11-24T18:59:52.934777Z TRACE ThreadId(01) phase: init (Hooks) (done)
-2025-11-24T18:59:52.934797Z TRACE ThreadId(01) phase: init (tex_headers) (start)
-2025-11-24T18:59:52.934801Z TRACE ThreadId(01) phase: init (tex_headers) (done)
-2025-11-24T18:59:52.934808Z TRACE ThreadId(01) phase: init (Files) (start)
-2025-11-24T18:59:52.934812Z TRACE ThreadId(01) phase: init (Files) (done)
-2025-11-24T18:59:52.934815Z TRACE ThreadId(01) phase: init (FilePatching) (start)
-2025-11-24T18:59:52.934818Z TRACE ThreadId(01) phase: init (FilePatching) (done)
-2025-11-24T18:59:52.934821Z TRACE ThreadId(01) phase: init (summary) (start)
-2025-11-24T18:59:52.934824Z TRACE ThreadId(01) phase: init (summary) (done)
-2025-11-24T18:59:52.934827Z TRACE ThreadId(01) phase: init (Rapifier) (start)
-2025-11-24T18:59:52.934829Z TRACE ThreadId(01) phase: init (Rapifier) (done)
-2025-11-24T18:59:52.934832Z TRACE ThreadId(01) phase: init (SQF) (start)
-2025-11-24T19:00:14.081294Z TRACE ThreadId(01) phase: init (SQF) (done)
-2025-11-24T19:00:14.081312Z TRACE ThreadId(01) phase: init (Stringtables) (start)
-2025-11-24T19:00:14.081316Z TRACE ThreadId(01) phase: init (Stringtables) (done)
-2025-11-24T19:00:14.081320Z TRACE ThreadId(01) phase: check (BOM Check) (start)
-2025-11-24T19:00:15.448776Z TRACE ThreadId(01) phase: check (BOM Check) (done)
-2025-11-24T19:00:15.448793Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
-2025-11-24T19:00:15.455335Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
-2025-11-24T19:00:15.455352Z TRACE ThreadId(01) phase: check (Hooks) (start)
-2025-11-24T19:00:15.455355Z TRACE ThreadId(01) phase: check (Hooks) (done)
-2025-11-24T19:00:15.455359Z TRACE ThreadId(01) phase: check (tex_headers) (start)
-2025-11-24T19:00:15.455362Z TRACE ThreadId(01) phase: check (tex_headers) (done)
-2025-11-24T19:00:15.455364Z TRACE ThreadId(01) phase: check (Files) (start)
-2025-11-24T19:00:15.455367Z TRACE ThreadId(01) phase: check (Files) (done)
-2025-11-24T19:00:15.455370Z TRACE ThreadId(01) phase: check (FilePatching) (start)
-2025-11-24T19:00:15.455373Z TRACE ThreadId(01) phase: check (FilePatching) (done)
-2025-11-24T19:00:15.455376Z TRACE ThreadId(01) phase: check (summary) (start)
-2025-11-24T19:00:15.455378Z TRACE ThreadId(01) phase: check (summary) (done)
-2025-11-24T19:00:15.455381Z TRACE ThreadId(01) phase: check (Rapifier) (start)
-2025-11-24T19:00:15.455443Z TRACE ThreadId(01) phase: check (Rapifier) (done)
-2025-11-24T19:00:15.455447Z TRACE ThreadId(01) phase: check (SQF) (start)
-2025-11-24T19:00:15.455506Z TRACE ThreadId(01) phase: check (SQF) (done)
-2025-11-24T19:00:15.455509Z TRACE ThreadId(01) phase: check (Stringtables) (start)
-2025-11-24T19:00:15.455535Z TRACE ThreadId(01) phase: check (Stringtables) (done)
-2025-11-24T19:00:15.455539Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
-2025-11-24T19:00:15.455542Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
-2025-11-24T19:00:15.455545Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (start)
-2025-11-24T19:00:15.455548Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (done)
-2025-11-24T19:00:15.455550Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
-2025-11-24T19:00:15.456082Z  INFO ThreadId(01) Running hook: pre_build/01_set_version.rhai
-2025-11-24T19:00:15.463993Z  INFO ThreadId(01) [pre_build/01_set_version.rhai] mod.cpp version set to 1.3.0.10
-2025-11-24T19:00:15.472170Z  INFO ThreadId(01) [pre_build/01_set_version.rhai] README.md version set to 1.3.0.10
-2025-11-24T19:00:15.472358Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
-2025-11-24T19:00:15.472363Z TRACE ThreadId(01) phase: pre_build (tex_headers) (start)
-2025-11-24T19:00:15.504058Z DEBUG ThreadId(08) Writing texture headers to "/addons/weapon/texHeaders.bin"
-2025-11-24T19:00:15.537368Z DEBUG ThreadId(13) Writing texture headers to "/addons/main/texHeaders.bin"
-2025-11-24T19:00:15.573101Z DEBUG ThreadId(07) Writing texture headers to "/addons/objects/texHeaders.bin"
-2025-11-24T19:00:15.573784Z  INFO ThreadId(01) Generated 3 texture headers
-2025-11-24T19:00:15.573803Z TRACE ThreadId(01) phase: pre_build (tex_headers) (done)
-2025-11-24T19:00:15.573808Z TRACE ThreadId(01) phase: pre_build (Files) (start)
-2025-11-24T19:00:15.573811Z TRACE ThreadId(01) phase: pre_build (Files) (done)
-2025-11-24T19:00:15.573817Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
-2025-11-24T19:00:15.574072Z TRACE ThreadId(04) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\common" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\common"
-2025-11-24T19:00:15.574073Z TRACE ThreadId(03) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\chat_wheel_redux" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\chat_wheel_redux"
-2025-11-24T19:00:15.574106Z TRACE ThreadId(13) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\weapon" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\weapon"
-2025-11-24T19:00:15.574093Z TRACE ThreadId(08) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\objects" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\objects"
-2025-11-24T19:00:15.574092Z TRACE ThreadId(06) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\infantry" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\infantry"
-2025-11-24T19:00:15.574119Z TRACE ThreadId(05) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\main" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\main"
-2025-11-24T19:00:15.621909Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
-2025-11-24T19:00:15.621938Z TRACE ThreadId(01) phase: pre_build (summary) (start)
-2025-11-24T19:00:15.621943Z TRACE ThreadId(01) phase: pre_build (summary) (done)
-2025-11-24T19:00:15.621948Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
-2025-11-24T19:00:15.743808Z  INFO ThreadId(01) Rapified 17 addon configs
-2025-11-24T19:00:15.743941Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
-2025-11-24T19:00:15.743950Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
-2025-11-24T19:00:15.822880Z TRACE ThreadId(03) sqf compiling /addons/chat_wheel_redux/XEH_postInitClient.sqf
-2025-11-24T19:00:15.822895Z TRACE ThreadId(14) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_sendGroupMessage.sqf
-2025-11-24T19:00:15.822921Z TRACE ThreadId(09) sqf compiling /addons/main/functions/fnc_stringReplace.sqf
-2025-11-24T19:00:15.822891Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_openChatWheel.sqf
-2025-11-24T19:00:15.822891Z TRACE ThreadId(06) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_throwGrenadeMain.sqf
-2025-11-24T19:00:15.822891Z TRACE ThreadId(11) sqf compiling /addons/main/XEH_preInit.sqf
-2025-11-24T19:00:15.822891Z TRACE ThreadId(12) sqf compiling /addons/main/functions/fnc_isVehicleCrew.sqf
-2025-11-24T19:00:15.822892Z TRACE ThreadId(10) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_reloadEH.sqf
-2025-11-24T19:00:15.822904Z TRACE ThreadId(07) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_reloadEHACE.sqf
-2025-11-24T19:00:15.822893Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fnc_tempDisableDamage.sqf
-2025-11-24T19:00:15.822916Z TRACE ThreadId(08) sqf compiling /addons/main/functions/fnc_setEngineer.sqf
-2025-11-24T19:00:15.822896Z TRACE ThreadId(04) sqf compiling /addons/main/XEH_postInitClient.sqf
-2025-11-24T19:00:15.825391Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825408Z TRACE ThreadId(14) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825428Z TRACE ThreadId(14) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825435Z TRACE ThreadId(14) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825412Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825440Z TRACE ThreadId(14) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825510Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825525Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825552Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825595Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825604Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825618Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.825711Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.826425Z TRACE ThreadId(03) sqf compiling /addons/main/functions/fnc_setMedic.sqf
-2025-11-24T19:00:15.826753Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Sounds/fn_playLocalSound.sqf
-2025-11-24T19:00:15.827208Z TRACE ThreadId(10) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_throwGrenadeEHACE.sqf
-2025-11-24T19:00:15.827555Z TRACE ThreadId(14) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_sendLocalMessage.sqf
-2025-11-24T19:00:15.828799Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828856Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828904Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828927Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828934Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828946Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828968Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828975Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828981Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.828987Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.829043Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.829052Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.829069Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.829076Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.829081Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.829086Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.829718Z TRACE ThreadId(07) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_unconsciousEH.sqf
-2025-11-24T19:00:15.829964Z TRACE ThreadId(14) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.830045Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.830080Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.830446Z TRACE ThreadId(10) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_processTags.sqf
-2025-11-24T19:00:15.830659Z TRACE ThreadId(14) sqf compiling /addons/main/functions/fnc_loopSay3D.sqf
-2025-11-24T19:00:15.830991Z TRACE ThreadId(06) sqf compiling /addons/chat_wheel_redux/Data/Functions/Settings/fn_configureAddonKeybinds.sqf
-2025-11-24T19:00:15.831273Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_getDirFromBearing.sqf
-2025-11-24T19:00:15.833107Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.833397Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.833411Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.833449Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.833498Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.833512Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.833554Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.834316Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.834415Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.834573Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.834836Z TRACE ThreadId(08) sqf compiling /addons/main/functions/fnc_isEngineer.sqf
-2025-11-24T19:00:15.835214Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835238Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835248Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835771Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835794Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835803Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835872Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835883Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835939Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835981Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.835993Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.836245Z TRACE ThreadId(03) sqf compiling /addons/main/functions/fnc_inFeatureCamera.sqf
-2025-11-24T19:00:15.836678Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fnc_getNearbyUnits.sqf
-2025-11-24T19:00:15.837037Z TRACE ThreadId(12) sqf compiling /addons/main/functions/fnc_loopSay3D_init.sqf
-2025-11-24T19:00:15.837892Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_findAllVoicelineTags.sqf
-2025-11-24T19:00:15.837997Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.838367Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.838381Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.838414Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.838447Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.838453Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.838461Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.838492Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.839290Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.839718Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.839842Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.839877Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.839904Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.839947Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.839983Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840014Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840049Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840109Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840136Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840228Z TRACE ThreadId(07) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_throwGrenadeEH.sqf
-2025-11-24T19:00:15.840313Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840362Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_devLog.sqf
-2025-11-24T19:00:15.840378Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840388Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840426Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840477Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840486Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840513Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840520Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840525Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840530Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840545Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840553Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840654Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840685Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840693Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840777Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840902Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840913Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840919Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840924Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840952Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.840960Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841003Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841012Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841017Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841022Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841048Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841074Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841099Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841117Z TRACE ThreadId(09) sqf compiling /addons/main/functions/fnc_onArsenalOpen.sqf
-2025-11-24T19:00:15.841138Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841150Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841162Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841167Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841209Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.841216Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.842074Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.842093Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.842202Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.842454Z TRACE ThreadId(14) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.843063Z TRACE ThreadId(07) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_reloadMain.sqf
-2025-11-24T19:00:15.843998Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_getNearbyPlayers.sqf
-2025-11-24T19:00:15.844063Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.844077Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.844097Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.844344Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.844358Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.844369Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.844382Z TRACE ThreadId(03) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.844515Z TRACE ThreadId(10) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_configureMenus.sqf
-2025-11-24T19:00:15.845835Z TRACE ThreadId(03) sqf compiling /addons/main/XEH_postInitServer.sqf
-2025-11-24T19:00:15.845889Z TRACE ThreadId(11) sqf compiling /addons/objects/XEH_postInit.sqf
-2025-11-24T19:00:15.846019Z TRACE ThreadId(08) sqf compiling /addons/main/functions/fnc_getReplacementItem.sqf
-2025-11-24T19:00:15.846245Z TRACE ThreadId(14) sqf compiling /addons/main/XEH_postInit.sqf
-2025-11-24T19:00:15.846396Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.846504Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.847431Z TRACE ThreadId(04) sqf compiling /addons/main/functions/fnc_playLocalSound.sqf
-2025-11-24T19:00:15.847620Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.847635Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.847641Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.847666Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.848197Z TRACE ThreadId(12) sqf compiling /addons/main/functions/fnc_isMedic.sqf
-2025-11-24T19:00:15.848215Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_getConfigNameFromTag.sqf
-2025-11-24T19:00:15.849829Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.849855Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.850095Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_sortByDistance.sqf
-2025-11-24T19:00:15.851119Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851156Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851183Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851196Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851202Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851208Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851398Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851420Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851427Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.851434Z TRACE ThreadId(13) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852138Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852155Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852161Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852166Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852186Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852193Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852466Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852480Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852491Z TRACE ThreadId(14) sqf compiling /addons/objects/functions/fnc_InitFR.sqf
-2025-11-24T19:00:15.852517Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852526Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852532Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852539Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852580Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852588Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852596Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_isPlayer.sqf
-2025-11-24T19:00:15.852607Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852617Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852623Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852629Z TRACE ThreadId(07) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.852678Z TRACE ThreadId(13) sqf compiling /addons/weapon/XEH_preStart.sqf
-2025-11-24T19:00:15.853678Z TRACE ThreadId(08) sqf compiling /addons/chat_wheel_redux/Data/Functions/Settings/fn_createTagMenu.sqf
-2025-11-24T19:00:15.853858Z TRACE ThreadId(07) sqf compiling /addons/common/XEH_preStart.sqf
-2025-11-24T19:00:15.854382Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.854397Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.854602Z TRACE ThreadId(03) sqf compiling /addons/objects/functions/fnc_registerCEKits.sqf
-2025-11-24T19:00:15.854904Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.854944Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.854951Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.854981Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.854987Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855099Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855119Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.854986Z TRACE ThreadId(12) sqf compiling /addons/main/functions/fnc_tempPFH.sqf
-2025-11-24T19:00:15.855245Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855265Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855254Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855277Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855288Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855550Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855579Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855648Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_removeQuotes.sqf
-2025-11-24T19:00:15.855658Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855715Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855833Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855847Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855853Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.855918Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.856022Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.856076Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.856087Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.856111Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.856120Z TRACE ThreadId(09) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.856240Z TRACE ThreadId(14) sqf compiling /addons/weapon/XEH_preInit.sqf
-2025-11-24T19:00:15.857783Z TRACE ThreadId(10) sqf compiling /addons/weapon/XEH_postInit.sqf
-2025-11-24T19:00:15.858134Z TRACE ThreadId(11) sqf compiling /addons/objects/functions/fnc_registerFRKits.sqf
-2025-11-24T19:00:15.858645Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.858684Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.859107Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_stringReplace.sqf
-2025-11-24T19:00:15.859197Z TRACE ThreadId(09) sqf compiling /addons/common/functions/fnc_empty.sqf
-2025-11-24T19:00:15.859948Z TRACE ThreadId(13) sqf compiling /addons/objects/functions/fnc_InitCE.sqf
-2025-11-24T19:00:15.862574Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.862614Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.862651Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.862691Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.862925Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863004Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863038Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863634Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863648Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863711Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863721Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863755Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863763Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863839Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863849Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863918Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.863929Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864364Z TRACE ThreadId(04) sqf compiling /addons/main/functions/fnc_rgbToHex.sqf
-2025-11-24T19:00:15.864793Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864845Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864854Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864892Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864908Z TRACE ThreadId(13) sqf compiling /addons/objects/XEH_preStart.sqf
-2025-11-24T19:00:15.864930Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864939Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864948Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.864980Z TRACE ThreadId(05) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.866092Z TRACE ThreadId(05) sqf compiling /addons/common/XEH_preInit.sqf
-2025-11-24T19:00:15.867068Z TRACE ThreadId(08) sqf compiling /addons/chat_wheel_redux/Data/Functions/Settings/fn_configureAddonOptions.sqf
-2025-11-24T19:00:15.867572Z TRACE ThreadId(09) sqf compiling /addons/main/XEH_preStart.sqf
-2025-11-24T19:00:15.868669Z TRACE ThreadId(10) sqf compiling /addons/objects/XEH_preInit.sqf
-2025-11-24T19:00:15.871958Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.871990Z TRACE ThreadId(12) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.872675Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.872718Z TRACE ThreadId(04) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874238Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874253Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874267Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874304Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874311Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874321Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874355Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874360Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874370Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874394Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874398Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874408Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874445Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874451Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874462Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874499Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874505Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874516Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874551Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874557Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874570Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874605Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874610Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874621Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874656Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874663Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.874680Z TRACE ThreadId(06) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.878761Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.878787Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.878809Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.878918Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.878929Z TRACE ThreadId(10) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.884048Z TRACE ThreadId(08) wiki has syntax with [unknown] type
-2025-11-24T19:00:15.952407Z  INFO ThreadId(01) Compiled 60 sqf files
-2025-11-24T19:00:15.952746Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
-2025-11-24T19:00:15.952756Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
-2025-11-24T19:00:16.013733Z  INFO ThreadId(01) Checked 0 stringtables
-2025-11-24T19:00:16.013769Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
-2025-11-24T19:00:16.013778Z TRACE ThreadId(01) phase: build (start)
-2025-11-24T19:00:16.014007Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
-2025-11-24T19:00:16.029779Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
-2025-11-24T19:00:16.029802Z DEBUG ThreadId(01) building "addons/chat_wheel_redux" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_chat_wheel_redux.pbo"
-2025-11-24T19:00:16.042759Z TRACE ThreadId(01) adding file "CfgHints.hpp"
-2025-11-24T19:00:16.043039Z TRACE ThreadId(01) adding file "README.md"
-2025-11-24T19:00:16.043290Z TRACE ThreadId(01) adding file "CWR_VoiceLines.hpp"
-2025-11-24T19:00:16.043414Z TRACE ThreadId(01) adding file "config.bin"
-2025-11-24T19:00:16.043621Z TRACE ThreadId(01) adding file "LICENSE.md"
-2025-11-24T19:00:16.044036Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqfc"
-2025-11-24T19:00:16.044664Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqf"
-2025-11-24T19:00:16.045054Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendGroupMessage.sqf"
-2025-11-24T19:00:16.045302Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_openChatWheel.sqf"
-2025-11-24T19:00:16.045436Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_processTags.sqfc"
-2025-11-24T19:00:16.045540Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_configureMenus.sqf"
-2025-11-24T19:00:16.045649Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_configureMenus.sqfc"
-2025-11-24T19:00:16.045671Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendGroupMessage.sqfc"
-2025-11-24T19:00:16.045986Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendLocalMessage.sqf"
-2025-11-24T19:00:16.046186Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_openChatWheel.sqfc"
-2025-11-24T19:00:16.046215Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendLocalMessage.sqfc"
-2025-11-24T19:00:16.046443Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_processTags.sqf"
-2025-11-24T19:00:16.046731Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonKeybinds.sqf"
-2025-11-24T19:00:16.046982Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonOptions.sqf"
-2025-11-24T19:00:16.047353Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_createTagMenu.sqf"
-2025-11-24T19:00:16.047463Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonOptions.sqfc"
-2025-11-24T19:00:16.047477Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonKeybinds.sqfc"
-2025-11-24T19:00:16.047489Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_createTagMenu.sqfc"
-2025-11-24T19:00:16.047500Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_isPlayer.sqfc"
-2025-11-24T19:00:16.047517Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_stringReplace.sqfc"
-2025-11-24T19:00:16.047544Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getDirFromBearing.sqfc"
-2025-11-24T19:00:16.047560Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_removeQuotes.sqfc"
-2025-11-24T19:00:16.047571Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_findAllVoicelineTags.sqfc"
-2025-11-24T19:00:16.047731Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_sortByDistance.sqf"
-2025-11-24T19:00:16.047947Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_findAllVoicelineTags.sqf"
-2025-11-24T19:00:16.048124Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_devLog.sqf"
-2025-11-24T19:00:16.048253Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_devLog.sqfc"
-2025-11-24T19:00:16.048363Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getConfigNameFromTag.sqf"
-2025-11-24T19:00:16.048562Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getNearbyPlayers.sqf"
-2025-11-24T19:00:16.048802Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_removeQuotes.sqf"
-2025-11-24T19:00:16.049016Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_isPlayer.sqf"
-2025-11-24T19:00:16.049119Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getNearbyPlayers.sqfc"
-2025-11-24T19:00:16.049217Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getDirFromBearing.sqf"
-2025-11-24T19:00:16.049356Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_sortByDistance.sqfc"
-2025-11-24T19:00:16.049375Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getConfigNameFromTag.sqfc"
-2025-11-24T19:00:16.049481Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_stringReplace.sqf"
-2025-11-24T19:00:16.049657Z TRACE ThreadId(01) adding file "Data\\Functions\\Sounds\\fn_playLocalSound.sqf"
-2025-11-24T19:00:16.049752Z TRACE ThreadId(01) adding file "Data\\Functions\\Sounds\\fn_playLocalSound.sqfc"
-2025-11-24T19:00:16.049767Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEHACE.sqfc"
-2025-11-24T19:00:16.049864Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEHACE.sqf"
-2025-11-24T19:00:16.049961Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEHACE.sqfc"
-2025-11-24T19:00:16.049974Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_unconsciousEH.sqfc"
-2025-11-24T19:00:16.050071Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadMain.sqf"
-2025-11-24T19:00:16.050250Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEHACE.sqf"
-2025-11-24T19:00:16.050347Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEH.sqfc"
-2025-11-24T19:00:16.050458Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeMain.sqf"
-2025-11-24T19:00:16.050649Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_unconsciousEH.sqf"
-2025-11-24T19:00:16.050742Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeMain.sqfc"
-2025-11-24T19:00:16.050837Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEH.sqf"
-2025-11-24T19:00:16.050931Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEH.sqfc"
-2025-11-24T19:00:16.050947Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadMain.sqfc"
-2025-11-24T19:00:16.051045Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEH.sqf"
-2025-11-24T19:00:16.051880Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\TroubleBreathing.wss"
-2025-11-24T19:00:16.052064Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\NotSureIfICanMakeIt.wss"
-2025-11-24T19:00:16.052237Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\NeedAMedic.wss"
-2025-11-24T19:00:16.052419Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ImHit.wss"
-2025-11-24T19:00:16.052650Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ArmorCantTakeIt.wss"
-2025-11-24T19:00:16.052830Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\INeedAMedicOverHere.wss"
-2025-11-24T19:00:16.053004Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ArmorFailing.wss"
-2025-11-24T19:00:16.053176Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain.wss"
-2025-11-24T19:00:16.053351Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain3.wss"
-2025-11-24T19:00:16.053529Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ArmorsComingApart.wss"
-2025-11-24T19:00:16.053702Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\IRequireMedicalSupport.wss"
-2025-11-24T19:00:16.053870Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain2.wss"
-2025-11-24T19:00:16.054080Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain4.wss"
-2025-11-24T19:00:16.054250Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\StartingToHurt.wss"
-2025-11-24T19:00:16.054418Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\Sorry.wss"
-2025-11-24T19:00:16.054875Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\SorryIHopeTheyDontWriteAReport.wss"
-2025-11-24T19:00:16.055060Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\SorrySir.wss"
-2025-11-24T19:00:16.055250Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\IHopeTheyDontWriteAReport.wss"
-2025-11-24T19:00:16.055422Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\Sorry2.wss"
-2025-11-24T19:00:16.055611Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\MyApologies.wss"
-2025-11-24T19:00:16.055824Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\SorryAboutThat.wss"
-2025-11-24T19:00:16.056056Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\LostOneFriendlyDown.wss"
-2025-11-24T19:00:16.056357Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\TrooperDown.wss"
-2025-11-24T19:00:16.056546Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\AGoodDeathFriendlyDown.wss"
-2025-11-24T19:00:16.056718Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\CloneDownCloneDown.wss"
-2025-11-24T19:00:16.056888Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\FriendlyDown.wss"
-2025-11-24T19:00:16.057062Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\ManDownStayTogether.wss"
-2025-11-24T19:00:16.057305Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\SeppiesClosingIn.wss"
-2025-11-24T19:00:16.057485Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveEnemyForcesWithinThePerimeter2.wss"
-2025-11-24T19:00:16.057899Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveEnemyForcesWithinThePerimeter.wss"
-2025-11-24T19:00:16.058272Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveHostilesNearby.wss"
-2025-11-24T19:00:16.059070Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\EnemyClankersSpotted.wss"
-2025-11-24T19:00:16.059359Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\DroidForcesDangerClose.wss"
-2025-11-24T19:00:16.059695Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\EnemyClankersApproaching.wss"
-2025-11-24T19:00:16.059945Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WatchItWatchItDroidsNearby.wss"
-2025-11-24T19:00:16.060386Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveHostileForcesNearby.wss"
-2025-11-24T19:00:16.060632Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\SmokeGetReady.wss"
-2025-11-24T19:00:16.060841Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\ShieldUp.wss"
-2025-11-24T19:00:16.061023Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\GrenadeOutTakeThis.wss"
-2025-11-24T19:00:16.061243Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\SmokeCoverIncoming.wss"
-2025-11-24T19:00:16.061643Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\SmokeGrenade.wss"
-2025-11-24T19:00:16.061828Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\ShieldDeployedInTheDome.wss"
-2025-11-24T19:00:16.062138Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\GrenadeDeployed.wss"
-2025-11-24T19:00:16.062367Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\MakeRoomGrenade.wss"
-2025-11-24T19:00:16.062598Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\CoverDroppedMoveInside.wss"
-2025-11-24T19:00:16.063009Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\WhereAreThoseReinforcements.wss"
-2025-11-24T19:00:16.063193Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedAssistance2.wss"
-2025-11-24T19:00:16.063374Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedReinforcementsOnMyPosition.wss"
-2025-11-24T19:00:16.063565Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedBackup.wss"
-2025-11-24T19:00:16.063786Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedAssistance.wss"
-2025-11-24T19:00:16.063967Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\WithMeBrothers.wss"
-2025-11-24T19:00:16.064137Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\RallyUpAndFollowMe.wss"
-2025-11-24T19:00:16.064308Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\AlrightSquadFollowMe.wss"
-2025-11-24T19:00:16.064490Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\AlrightSquadFollowMe2.wss"
-2025-11-24T19:00:16.064661Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\SquadWithMe.wss"
-2025-11-24T19:00:16.081283Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
-2025-11-24T19:00:16.081302Z DEBUG ThreadId(01) building "addons/common" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_common.pbo"
-2025-11-24T19:00:16.082424Z TRACE ThreadId(01) adding file "README.md"
-2025-11-24T19:00:16.082803Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
-2025-11-24T19:00:16.083095Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
-2025-11-24T19:00:16.083303Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
-2025-11-24T19:00:16.083473Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
-2025-11-24T19:00:16.083563Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
-2025-11-24T19:00:16.083659Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-11-24T19:00:16.083765Z TRACE ThreadId(01) adding file "config.bin"
-2025-11-24T19:00:16.083870Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
-2025-11-24T19:00:16.083961Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqfc"
-2025-11-24T19:00:16.084058Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqf"
-2025-11-24T19:00:16.084762Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
-2025-11-24T19:00:16.084773Z DEBUG ThreadId(01) building "addons/infantry" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_infantry.pbo"
-2025-11-24T19:00:16.085402Z TRACE ThreadId(01) adding file "script_macros.hpp"
-2025-11-24T19:00:16.085570Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-11-24T19:00:16.085659Z TRACE ThreadId(01) adding file "config.bin"
-2025-11-24T19:00:16.085749Z TRACE ThreadId(01) adding file "CfgVehicles.hpp"
-2025-11-24T19:00:16.086865Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
-2025-11-24T19:00:16.086878Z DEBUG ThreadId(01) building "addons/main" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_main.pbo"
-2025-11-24T19:00:16.093092Z TRACE ThreadId(01) adding file "README.md"
-2025-11-24T19:00:16.093440Z TRACE ThreadId(01) adding file "XEH_postInitServer.sqf"
-2025-11-24T19:00:16.094445Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
-2025-11-24T19:00:16.094722Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-11-24T19:00:16.094975Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
-2025-11-24T19:00:16.095142Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
-2025-11-24T19:00:16.095309Z TRACE ThreadId(01) adding file "CfgEditorSubcategories.hpp"
-2025-11-24T19:00:16.095428Z TRACE ThreadId(01) adding file "XEH_postInitServer.sqfc"
-2025-11-24T19:00:16.095521Z TRACE ThreadId(01) adding file "CfgVehicles.hpp"
-2025-11-24T19:00:16.095603Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqfc"
-2025-11-24T19:00:16.095997Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
-2025-11-24T19:00:16.096011Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
-2025-11-24T19:00:16.096108Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
-2025-11-24T19:00:16.096277Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqf"
-2025-11-24T19:00:16.096369Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
-2025-11-24T19:00:16.096466Z TRACE ThreadId(01) adding file "script_macros.hpp"
-2025-11-24T19:00:16.096552Z TRACE ThreadId(01) adding file "texHeaders.bin"
-2025-11-24T19:00:16.096646Z TRACE ThreadId(01) adding file "CfgEditorCategories.hpp"
-2025-11-24T19:00:16.096810Z TRACE ThreadId(01) adding file "CfgSettings.hpp"
-2025-11-24T19:00:16.097048Z TRACE ThreadId(01) adding file "script_mod.hpp"
-2025-11-24T19:00:16.097134Z TRACE ThreadId(01) adding file "config.bin"
-2025-11-24T19:00:16.097225Z TRACE ThreadId(01) adding file "script_version.hpp"
-2025-11-24T19:00:16.097483Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
-2025-11-24T19:00:16.097960Z TRACE ThreadId(01) adding file "data\\hpp\\defineDIKCodes.hpp"
-2025-11-24T19:00:16.098136Z TRACE ThreadId(01) adding file "data\\ui copy\\CamoGrey_co.paa"
-2025-11-24T19:00:16.098326Z TRACE ThreadId(01) adding file "data\\ui copy\\Medic_ca.paa"
-2025-11-24T19:00:16.098510Z TRACE ThreadId(01) adding file "data\\ui copy\\Medic_White_ca.paa"
-2025-11-24T19:00:16.098678Z TRACE ThreadId(01) adding file "data\\ui copy\\EOD_White_ca.paa"
-2025-11-24T19:00:16.098846Z TRACE ThreadId(01) adding file "data\\ui copy\\logo_kcKeeli_ca.paa"
-2025-11-24T19:00:16.099030Z TRACE ThreadId(01) adding file "data\\ui copy\\BIS_logo_small_ca.paa"
-2025-11-24T19:00:16.099227Z TRACE ThreadId(01) adding file "data\\ui copy\\CamoKC_co.paa"
-2025-11-24T19:00:16.099449Z TRACE ThreadId(01) adding file "data\\ui copy\\ACE_logo_small_ca.paa"
-2025-11-24T19:00:16.099618Z TRACE ThreadId(01) adding file "data\\ui copy\\logo_kc_ca.paa"
-2025-11-24T19:00:16.099783Z TRACE ThreadId(01) adding file "data\\ui copy\\CamoBrown_co.paa"
-2025-11-24T19:00:16.099951Z TRACE ThreadId(01) adding file "functions\\fnc_rgbToHex.sqf"
-2025-11-24T19:00:16.100045Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D.sqfc"
-2025-11-24T19:00:16.100058Z TRACE ThreadId(01) adding file "functions\\fnc_getReplacementItem.sqfc"
-2025-11-24T19:00:16.100151Z TRACE ThreadId(01) adding file "functions\\fnc_tempDisableDamage.sqf"
-2025-11-24T19:00:16.100240Z TRACE ThreadId(01) adding file "functions\\fnc_isVehicleCrew.sqfc"
-2025-11-24T19:00:16.100252Z TRACE ThreadId(01) adding file "functions\\fnc_setMedic.sqfc"
-2025-11-24T19:00:16.100344Z TRACE ThreadId(01) adding file "functions\\fnc_inFeatureCamera.sqf"
-2025-11-24T19:00:16.100433Z TRACE ThreadId(01) adding file "functions\\fnc_getNearbyUnits.sqfc"
-2025-11-24T19:00:16.100446Z TRACE ThreadId(01) adding file "functions\\fnc_rgbToHex.sqfc"
-2025-11-24T19:00:16.100456Z TRACE ThreadId(01) adding file "functions\\fnc_tempPFH.sqfc"
-2025-11-24T19:00:16.100547Z TRACE ThreadId(01) adding file "functions\\fnc_getNearbyUnits.sqf"
-2025-11-24T19:00:16.100722Z TRACE ThreadId(01) adding file "functions\\fnc_getReplacementItem.sqf"
-2025-11-24T19:00:16.100888Z TRACE ThreadId(01) adding file "functions\\fnc_onArsenalOpen.sqf"
-2025-11-24T19:00:16.101058Z TRACE ThreadId(01) adding file "functions\\fnc_stringReplace.sqf"
-2025-11-24T19:00:16.101232Z TRACE ThreadId(01) adding file "functions\\fnc_isVehicleCrew.sqf"
-2025-11-24T19:00:16.101321Z TRACE ThreadId(01) adding file "functions\\fnc_isMedic.sqfc"
-2025-11-24T19:00:16.101336Z TRACE ThreadId(01) adding file "functions\\fnc_setEngineer.sqfc"
-2025-11-24T19:00:16.101451Z TRACE ThreadId(01) adding file "functions\\fnc_isEngineer.sqf"
-2025-11-24T19:00:16.101630Z TRACE ThreadId(01) adding file "functions\\fnc_isMedic.sqf"
-2025-11-24T19:00:16.101795Z TRACE ThreadId(01) adding file "functions\\fnc_tempPFH.sqf"
-2025-11-24T19:00:16.101884Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D_init.sqfc"
-2025-11-24T19:00:16.101896Z TRACE ThreadId(01) adding file "functions\\fnc_playLocalSound.sqfc"
-2025-11-24T19:00:16.102000Z TRACE ThreadId(01) adding file "functions\\fnc_setMedic.sqf"
-2025-11-24T19:00:16.102099Z TRACE ThreadId(01) adding file "functions\\fnc_tempDisableDamage.sqfc"
-2025-11-24T19:00:16.102111Z TRACE ThreadId(01) adding file "functions\\fnc_inFeatureCamera.sqfc"
-2025-11-24T19:00:16.102121Z TRACE ThreadId(01) adding file "functions\\fnc_isEngineer.sqfc"
-2025-11-24T19:00:16.102130Z TRACE ThreadId(01) adding file "functions\\fnc_onArsenalOpen.sqfc"
-2025-11-24T19:00:16.102139Z TRACE ThreadId(01) adding file "functions\\fnc_stringReplace.sqfc"
-2025-11-24T19:00:16.102234Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D_init.sqf"
-2025-11-24T19:00:16.102403Z TRACE ThreadId(01) adding file "functions\\fnc_playLocalSound.sqf"
-2025-11-24T19:00:16.102568Z TRACE ThreadId(01) adding file "functions\\fnc_setEngineer.sqf"
-2025-11-24T19:00:16.102732Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D.sqf"
-2025-11-24T19:00:16.104806Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
-2025-11-24T19:00:16.104822Z DEBUG ThreadId(01) building "addons/objects" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_objects.pbo"
-2025-11-24T19:00:16.109619Z TRACE ThreadId(01) adding file "CfgVehicles.hpp"
-2025-11-24T19:00:16.109852Z TRACE ThreadId(01) adding file "script_macros.hpp"
-2025-11-24T19:00:16.110064Z TRACE ThreadId(01) adding file "config.bin"
-2025-11-24T19:00:16.110195Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
-2025-11-24T19:00:16.110473Z TRACE ThreadId(01) adding file "texHeaders.bin"
-2025-11-24T19:00:16.110669Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
-2025-11-24T19:00:16.110931Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-11-24T19:00:16.111054Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
-2025-11-24T19:00:16.111191Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
-2025-11-24T19:00:16.111321Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
-2025-11-24T19:00:16.111341Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
-2025-11-24T19:00:16.111475Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
-2025-11-24T19:00:16.111894Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
-2025-11-24T19:00:16.112476Z TRACE ThreadId(01) adding file "data\\flags\\505th_co.paa"
-2025-11-24T19:00:16.112671Z TRACE ThreadId(01) adding file "data\\flags\\505th_Damaged_co.paa"
-2025-11-24T19:00:16.112932Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign2_CO.paa"
-2025-11-24T19:00:16.113104Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign2_CO.png"
-2025-11-24T19:00:16.113284Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign1_CO.png"
-2025-11-24T19:00:16.113451Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign1_CO.paa"
-2025-11-24T19:00:16.113630Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign_NOHQ.paa"
-2025-11-24T19:00:16.113734Z TRACE ThreadId(01) adding file "functions\\fnc_InitCE.sqfc"
-2025-11-24T19:00:16.113847Z TRACE ThreadId(01) adding file "functions\\fnc_registerCEKits.sqf"
-2025-11-24T19:00:16.113941Z TRACE ThreadId(01) adding file "functions\\fnc_registerCEKits.sqfc"
-2025-11-24T19:00:16.114034Z TRACE ThreadId(01) adding file "functions\\fnc_InitCE.sqf"
-2025-11-24T19:00:16.114210Z TRACE ThreadId(01) adding file "functions\\fnc_InitFR.sqf"
-2025-11-24T19:00:16.114300Z TRACE ThreadId(01) adding file "functions\\fnc_registerFRKits.sqfc"
-2025-11-24T19:00:16.114312Z TRACE ThreadId(01) adding file "functions\\fnc_InitFR.sqfc"
-2025-11-24T19:00:16.114403Z TRACE ThreadId(01) adding file "functions\\fnc_registerFRKits.sqf"
-2025-11-24T19:00:16.114652Z TRACE ThreadId(01) adding file "resupply\\script_component.hpp"
-2025-11-24T19:00:16.114834Z TRACE ThreadId(01) adding file "resupply\\config.bin"
-2025-11-24T19:00:16.114938Z TRACE ThreadId(01) adding file "resupply\\CfgVehicles.hpp"
-2025-11-24T19:00:16.115189Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Platoon_Ammo_Crate_co.paa"
-2025-11-24T19:00:16.115361Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Platoon_Medical_Crate_co.paa"
-2025-11-24T19:00:16.115534Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Squad_Ammo_Crate_co.paa"
-2025-11-24T19:00:16.115843Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Squad_Medical_Crate_co.paa"
-2025-11-24T19:00:16.116024Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Explosives_Crate_co.paa"
-2025-11-24T19:00:16.127273Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
-2025-11-24T19:00:16.127297Z DEBUG ThreadId(01) building "addons/weapon" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_weapon.pbo"
-2025-11-24T19:00:16.136922Z TRACE ThreadId(01) adding file "script_macros.hpp"
-2025-11-24T19:00:16.137103Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
-2025-11-24T19:00:16.137190Z TRACE ThreadId(01) adding file "config.bin"
-2025-11-24T19:00:16.137214Z TRACE ThreadId(01) adding file "texHeaders.bin"
-2025-11-24T19:00:16.137224Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
-2025-11-24T19:00:16.137613Z TRACE ThreadId(01) adding file "CfgAmmo.hpp"
-2025-11-24T19:00:16.137791Z TRACE ThreadId(01) adding file "CfgMagazines.hpp"
-2025-11-24T19:00:16.138299Z TRACE ThreadId(01) adding file "script_component.hpp"
-2025-11-24T19:00:16.138504Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
-2025-11-24T19:00:16.138933Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
-2025-11-24T19:00:16.138952Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
-2025-11-24T19:00:16.139075Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
-2025-11-24T19:00:16.139347Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
-2025-11-24T19:00:16.139522Z TRACE ThreadId(01) adding file "m295bmr\\CfgMagazines.hpp"
-2025-11-24T19:00:16.139688Z TRACE ThreadId(01) adding file "m295bmr\\script_component.hpp"
-2025-11-24T19:00:16.140048Z TRACE ThreadId(01) adding file "m295bmr\\CfgWeapons.hpp"
-2025-11-24T19:00:16.140322Z TRACE ThreadId(01) adding file "m295bmr\\config.bin"
-2025-11-24T19:00:16.140479Z TRACE ThreadId(01) adding file "m6g\\CfgWeapons.hpp"
-2025-11-24T19:00:16.140670Z TRACE ThreadId(01) adding file "m6g\\script_component.hpp"
-2025-11-24T19:00:16.140802Z TRACE ThreadId(01) adding file "m6g\\config.bin"
-2025-11-24T19:00:16.141039Z TRACE ThreadId(01) adding file "m6g\\CfgMagazines.hpp"
-2025-11-24T19:00:16.141373Z TRACE ThreadId(01) adding file "m247\\script_component.hpp"
-2025-11-24T19:00:16.141466Z TRACE ThreadId(01) adding file "m247\\config.bin"
-2025-11-24T19:00:16.141556Z TRACE ThreadId(01) adding file "m247\\CfgWeapons.hpp"
-2025-11-24T19:00:16.141719Z TRACE ThreadId(01) adding file "m247\\CfgMagazines.hpp"
-2025-11-24T19:00:16.141894Z TRACE ThreadId(01) adding file "vk78commando\\config.bin"
-2025-11-24T19:00:16.141995Z TRACE ThreadId(01) adding file "vk78commando\\CfgWeapons.hpp"
-2025-11-24T19:00:16.142168Z TRACE ThreadId(01) adding file "vk78commando\\CfgMagazines.hpp"
-2025-11-24T19:00:16.142349Z TRACE ThreadId(01) adding file "vk78commando\\script_component.hpp"
-2025-11-24T19:00:16.142530Z TRACE ThreadId(01) adding file "mhg16(wip)\\CfgWeapons.hpp"
-2025-11-24T19:00:16.142725Z TRACE ThreadId(01) adding file "mhg16(wip)\\config.bin"
-2025-11-24T19:00:16.142835Z TRACE ThreadId(01) adding file "mhg16(wip)\\CfgMagazines.hpp"
-2025-11-24T19:00:16.143008Z TRACE ThreadId(01) adding file "mhg16(wip)\\script_component.hpp"
-2025-11-24T19:00:16.143097Z TRACE ThreadId(01) adding file "ma5c\\config.bin"
-2025-11-24T19:00:16.143190Z TRACE ThreadId(01) adding file "ma5c\\CfgSoundSets.hpp"
-2025-11-24T19:00:16.143483Z TRACE ThreadId(01) adding file "ma5c\\CfgWeapons.hpp"
-2025-11-24T19:00:16.143870Z TRACE ThreadId(01) adding file "ma5c\\CfgMagazines.hpp"
-2025-11-24T19:00:16.144066Z TRACE ThreadId(01) adding file "ma5c\\CfgSoundShaders.hpp"
-2025-11-24T19:00:16.144285Z TRACE ThreadId(01) adding file "ma5c\\script_component.hpp"
-2025-11-24T19:00:16.144630Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\rend_weapon_co.paa"
-2025-11-24T19:00:16.144823Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\smartlinkc_co.paa"
-2025-11-24T19:00:16.145020Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\coverc_co.paa"
-2025-11-24T19:00:16.145224Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\MA5_Reticle_green.paa"
-2025-11-24T19:00:16.145420Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-11.ogg"
-2025-11-24T19:00:16.145655Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-02.ogg"
-2025-11-24T19:00:16.145891Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-05.ogg"
-2025-11-24T19:00:16.146110Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-08.ogg"
-2025-11-24T19:00:16.146290Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-12.ogg"
-2025-11-24T19:00:16.146455Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-13.ogg"
-2025-11-24T19:00:16.146637Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-04.ogg"
-2025-11-24T19:00:16.146829Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-07.ogg"
-2025-11-24T19:00:16.147010Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-06.ogg"
-2025-11-24T19:00:16.147175Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-09.ogg"
-2025-11-24T19:00:16.147348Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-03.ogg"
-2025-11-24T19:00:16.147511Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-01.ogg"
-2025-11-24T19:00:16.147672Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-10.ogg"
-2025-11-24T19:00:16.147843Z TRACE ThreadId(01) adding file "ma37k\\CfgWeapons.hpp"
-2025-11-24T19:00:16.148104Z TRACE ThreadId(01) adding file "ma37k\\script_component.hpp"
-2025-11-24T19:00:16.148193Z TRACE ThreadId(01) adding file "ma37k\\config.bin"
-2025-11-24T19:00:16.148295Z TRACE ThreadId(01) adding file "br45b\\CfgWeapons.hpp"
-2025-11-24T19:00:16.148461Z TRACE ThreadId(01) adding file "br45b\\config.bin"
-2025-11-24T19:00:16.148552Z TRACE ThreadId(01) adding file "br45b\\CfgMagazines.hpp"
-2025-11-24T19:00:16.148713Z TRACE ThreadId(01) adding file "br45b\\script_component.hpp"
-2025-11-24T19:00:16.148898Z TRACE ThreadId(01) adding file "accessories\\config.bin"
-2025-11-24T19:00:16.149077Z TRACE ThreadId(01) adding file "accessories\\CfgWeapons.hpp"
-2025-11-24T19:00:16.149297Z TRACE ThreadId(01) adding file "accessories\\script_component.hpp"
-2025-11-24T19:00:16.149418Z TRACE ThreadId(01) adding file "m73\\config.bin"
-2025-11-24T19:00:16.149529Z TRACE ThreadId(01) adding file "m73\\CfgWeapons.hpp"
-2025-11-24T19:00:16.149695Z TRACE ThreadId(01) adding file "m73\\CfgMagazines.hpp"
-2025-11-24T19:00:16.149861Z TRACE ThreadId(01) adding file "m73\\script_component.hpp"
-2025-11-24T19:00:16.160098Z  INFO ThreadId(01) Built 6 PBOs
-2025-11-24T19:00:16.160135Z TRACE ThreadId(01) phase: build (done)
-2025-11-24T19:00:16.160144Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
-2025-11-24T19:00:16.160149Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
-2025-11-24T19:00:16.160154Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (start)
-2025-11-24T19:00:16.160159Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (done)
-2025-11-24T19:00:16.160164Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
-2025-11-24T19:00:16.160325Z TRACE ThreadId(01) no post_build hooks
-2025-11-24T19:00:16.160333Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
-2025-11-24T19:00:16.160338Z TRACE ThreadId(01) phase: post_build (tex_headers) (start)
-2025-11-24T19:00:16.160342Z TRACE ThreadId(01) phase: post_build (tex_headers) (done)
-2025-11-24T19:00:16.160346Z TRACE ThreadId(01) phase: post_build (Files) (start)
-2025-11-24T19:00:16.486597Z DEBUG ThreadId(01) copying "/meta.cpp" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\meta.cpp"
-2025-11-24T19:00:16.494005Z DEBUG ThreadId(01) copying "/LICENSE.md" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\LICENSE.md"
-2025-11-24T19:00:16.504755Z DEBUG ThreadId(01) copying "/EHB.png" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\EHB.png"
-2025-11-24T19:00:16.515072Z DEBUG ThreadId(01) copying "/mod.cpp" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\mod.cpp"
-2025-11-24T19:00:16.515684Z DEBUG ThreadId(01) copying "/README.md" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\README.md"
-2025-11-24T19:00:16.516639Z DEBUG ThreadId(01) copying "/EHB.paa" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\EHB.paa"
-2025-11-24T19:00:16.528772Z  INFO ThreadId(01) Copied 6 files
-2025-11-24T19:00:16.528804Z TRACE ThreadId(01) phase: post_build (Files) (done)
-2025-11-24T19:00:16.528809Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
-2025-11-24T19:00:16.529223Z TRACE ThreadId(01) removing existing symlink at C:\Program Files (x86)\Steam\steamapps\common\Arma 3\BLU\EHB
-2025-11-24T19:00:16.529472Z TRACE ThreadId(01) junction link "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\BLU\\EHB" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev"
-2025-11-24T19:00:16.541952Z  INFO ThreadId(01) Symlink created at C:\Program Files (x86)\Steam\steamapps\common\Arma 3\BLU\EHB
-2025-11-24T19:00:16.541974Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
-2025-11-24T19:00:16.541978Z TRACE ThreadId(01) phase: post_build (summary) (start)
-2025-11-24T19:00:16.549421Z TRACE ThreadId(01) phase: post_build (summary) (done)
-2025-11-24T19:00:16.549435Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
-2025-11-24T19:00:16.549439Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
-2025-11-24T19:00:16.549442Z TRACE ThreadId(01) phase: post_build (SQF) (start)
-2025-11-24T19:00:16.549449Z TRACE ThreadId(01) phase: post_build (SQF) (done)
-2025-11-24T19:00:16.549452Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
-2025-11-24T19:00:16.549455Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
-2025-11-24T19:00:16.557604Z  INFO ThreadId(01) Launching "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3" with:
+2025-12-04T22:57:07.450886Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\corra\\AppData\\Roaming\\hemtt"
+2025-12-04T22:57:07.451343Z TRACE ThreadId(01) launch config: LaunchOptions { workshop: ["1124993203", "1260802825", "1572627279", "1779063631", "1923321700", "1960024802", "2291129343", "2695649037", "2776005424", "2794721649", "2888477598", "2915485125", "2931279278", "2933180786", "2958273599", "2975882889", "2987115897", "3038821437", "3038826897", "3122396633", "3165450999", "3255508422", "3283642267", "3283645995", "3283652320", "3300894429", "3325103983", "3328314886", "3390219536", "3391132245", "3421886703", "3423561449", "3469976535", "3489262669", "3499977893", "366423278", "366425329", "450814997", "463939057", "570118882", "623475643", "767380317", "769440155", "784218341", "861133494", "894678801", "949698441"], dlc: [], presets: ["ebh_main"], optionals: [], mission: Some("EHB_Test.VR"), dev_mission: None, parameters: ["-noSplash", "-showScriptErrors", "-skipIntro", "-world=empty"], executable: None, binarize: None, file_patching: None, instances: None, rapify: None }
+2025-12-04T22:57:07.461566Z DEBUG ThreadId(01) Arma 3 found at: C:\Program Files (x86)\Steam\steamapps\common\Arma 3
+2025-12-04T22:57:07.461598Z TRACE ThreadId(01) Loading preset: ebh_main
+2025-12-04T22:57:07.462253Z TRACE ThreadId(01) Found new mod 893328083 in preset ebh_main
+2025-12-04T22:57:07.462267Z TRACE ThreadId(01) Found new mod 893349825 in preset ebh_main
+2025-12-04T22:57:07.462272Z TRACE ThreadId(01) Found new mod 893339590 in preset ebh_main
+2025-12-04T22:57:07.462276Z TRACE ThreadId(01) Found new mod 463939057 in preset ebh_main
+2025-12-04T22:57:07.462280Z TRACE ThreadId(01) Found new mod 766491311 in preset ebh_main
+2025-12-04T22:57:07.462285Z TRACE ThreadId(01) Found new mod 1911374016 in preset ebh_main
+2025-12-04T22:57:07.462290Z TRACE ThreadId(01) Found new mod 2836999643 in preset ebh_main
+2025-12-04T22:57:07.462294Z TRACE ThreadId(01) Found new mod 2198339170 in preset ebh_main
+2025-12-04T22:57:07.462298Z TRACE ThreadId(01) Found new mod 2372036642 in preset ebh_main
+2025-12-04T22:57:07.462302Z TRACE ThreadId(01) Found new mod 2791403093 in preset ebh_main
+2025-12-04T22:57:07.462306Z TRACE ThreadId(01) Found new mod 667953829 in preset ebh_main
+2025-12-04T22:57:07.462310Z TRACE ThreadId(01) Found new mod 450814997 in preset ebh_main
+2025-12-04T22:57:07.462314Z TRACE ThreadId(01) Found new mod 837729515 in preset ebh_main
+2025-12-04T22:57:07.462318Z TRACE ThreadId(01) Found new mod 2447965207 in preset ebh_main
+2025-12-04T22:57:07.462322Z TRACE ThreadId(01) Found new mod 2511318948 in preset ebh_main
+2025-12-04T22:57:07.462326Z TRACE ThreadId(01) Found new mod 583496184 in preset ebh_main
+2025-12-04T22:57:07.462337Z TRACE ThreadId(01) Found new mod 583544987 in preset ebh_main
+2025-12-04T22:57:07.462342Z TRACE ThreadId(01) Found new mod 1638341685 in preset ebh_main
+2025-12-04T22:57:07.462346Z TRACE ThreadId(01) Found new mod 333310405 in preset ebh_main
+2025-12-04T22:57:07.462350Z TRACE ThreadId(01) Found new mod 2034363662 in preset ebh_main
+2025-12-04T22:57:07.462354Z TRACE ThreadId(01) Found new mod 2699465073 in preset ebh_main
+2025-12-04T22:57:07.462358Z TRACE ThreadId(01) Found new mod 3114421562 in preset ebh_main
+2025-12-04T22:57:07.462362Z TRACE ThreadId(01) Found new mod 1224892496 in preset ebh_main
+2025-12-04T22:57:07.462367Z TRACE ThreadId(01) Found new mod 3149544080 in preset ebh_main
+2025-12-04T22:57:07.462371Z TRACE ThreadId(01) Found new mod 3333302397 in preset ebh_main
+2025-12-04T22:57:07.462375Z TRACE ThreadId(01) Found new mod 3337555434 in preset ebh_main
+2025-12-04T22:57:07.462379Z TRACE ThreadId(01) Found new mod 3421394954 in preset ebh_main
+2025-12-04T22:57:07.462383Z TRACE ThreadId(01) Found new mod 2586652540 in preset ebh_main
+2025-12-04T22:57:07.462387Z TRACE ThreadId(01) Found new mod 1858075458 in preset ebh_main
+2025-12-04T22:57:07.462434Z TRACE ThreadId(01) Found new mod 1808238502 in preset ebh_main
+2025-12-04T22:57:07.462440Z TRACE ThreadId(01) Found new mod 570118882 in preset ebh_main
+2025-12-04T22:57:07.462444Z TRACE ThreadId(01) Found new mod 632435682 in preset ebh_main
+2025-12-04T22:57:07.462448Z TRACE ThreadId(01) Found new mod 782415569 in preset ebh_main
+2025-12-04T22:57:07.462453Z TRACE ThreadId(01) Found new mod 1661066023 in preset ebh_main
+2025-12-04T22:57:07.462457Z TRACE ThreadId(01) Found new mod 3426116212 in preset ebh_main
+2025-12-04T22:57:07.462461Z TRACE ThreadId(01) Found new mod 2461607508 in preset ebh_main
+2025-12-04T22:57:07.462465Z TRACE ThreadId(01) Found new mod 1808723766 in preset ebh_main
+2025-12-04T22:57:07.462469Z TRACE ThreadId(01) Found new mod 3466650326 in preset ebh_main
+2025-12-04T22:57:07.462473Z TRACE ThreadId(01) Found new mod 2572487482 in preset ebh_main
+2025-12-04T22:57:07.462477Z TRACE ThreadId(01) Found new mod 3032643455 in preset ebh_main
+2025-12-04T22:57:07.462481Z TRACE ThreadId(01) Found new mod 750186990 in preset ebh_main
+2025-12-04T22:57:07.462486Z TRACE ThreadId(01) Found new mod 2387297579 in preset ebh_main
+2025-12-04T22:57:07.462490Z TRACE ThreadId(01) Found new mod 1779063631 in preset ebh_main
+2025-12-04T22:57:07.463072Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod"
+2025-12-04T22:57:07.463082Z TRACE ThreadId(01) using project folder: "F:\\EBH Dev Works\\EBH-Aux-Mod"
+2025-12-04T22:57:07.463114Z TRACE ThreadId(01) using out folder: "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout"
+2025-12-04T22:57:07.463263Z TRACE ThreadId(01) using build folder: "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev"
+2025-12-04T22:57:07.470678Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/main/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.471394Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/main/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.476295Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.477574Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.478927Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/m247/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.479276Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/mhg16(wip)/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.479836Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/lmr11shortbow/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.480677Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/ma5c/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.483334Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/ma37k/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.483925Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/m73/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.484183Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/accessories/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.485191Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/m98harvester/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.485944Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/ma5cgl/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.488510Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/vk78commando/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.488954Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/mr10longbow/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.489608Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/m295bmr/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.490356Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/br45b/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.490693Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/m6g/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.491528Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/objects/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.491626Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/objects/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.492878Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/objects/resupply/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.495832Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/common/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.496525Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/common/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.497107Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/chat_wheel_redux/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.497687Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/chat_wheel_redux/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.509528Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/infantry/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.509672Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/infantry/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.510286Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:07.510614Z  INFO ThreadId(01) Config loaded for Echo Hand Battalion - Aux Mod 1.3.0.10
+2025-12-04T22:57:07.510678Z TRACE ThreadId(01) Scanning F:\EBH Dev Works\EBH-Aux-Mod\addons for addons
+2025-12-04T22:57:07.511454Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\corra\\AppData\\Roaming\\hemtt"
+2025-12-04T22:57:07.512134Z  INFO ThreadId(01) Creating `dev` version
+2025-12-04T22:57:07.512181Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-12-04T22:57:07.512189Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-12-04T22:57:07.512192Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
+2025-12-04T22:57:07.512195Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
+2025-12-04T22:57:07.512198Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-12-04T22:57:07.515227Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-12-04T22:57:07.515241Z TRACE ThreadId(01) phase: init (tex_headers) (start)
+2025-12-04T22:57:07.515245Z TRACE ThreadId(01) phase: init (tex_headers) (done)
+2025-12-04T22:57:07.515248Z TRACE ThreadId(01) phase: init (Files) (start)
+2025-12-04T22:57:07.515251Z TRACE ThreadId(01) phase: init (Files) (done)
+2025-12-04T22:57:07.515254Z TRACE ThreadId(01) phase: init (FilePatching) (start)
+2025-12-04T22:57:07.515257Z TRACE ThreadId(01) phase: init (FilePatching) (done)
+2025-12-04T22:57:07.515259Z TRACE ThreadId(01) phase: init (summary) (start)
+2025-12-04T22:57:07.515262Z TRACE ThreadId(01) phase: init (summary) (done)
+2025-12-04T22:57:07.515265Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-12-04T22:57:07.515268Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-12-04T22:57:07.515271Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-12-04T22:57:07.937293Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-12-04T22:57:07.937311Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-12-04T22:57:07.937315Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-12-04T22:57:07.937318Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-12-04T22:57:07.951433Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-12-04T22:57:07.951453Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
+2025-12-04T22:57:07.958665Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
+2025-12-04T22:57:07.958680Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-12-04T22:57:07.958683Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-12-04T22:57:07.958686Z TRACE ThreadId(01) phase: check (tex_headers) (start)
+2025-12-04T22:57:07.958689Z TRACE ThreadId(01) phase: check (tex_headers) (done)
+2025-12-04T22:57:07.958692Z TRACE ThreadId(01) phase: check (Files) (start)
+2025-12-04T22:57:07.958695Z TRACE ThreadId(01) phase: check (Files) (done)
+2025-12-04T22:57:07.958697Z TRACE ThreadId(01) phase: check (FilePatching) (start)
+2025-12-04T22:57:07.958700Z TRACE ThreadId(01) phase: check (FilePatching) (done)
+2025-12-04T22:57:07.958703Z TRACE ThreadId(01) phase: check (summary) (start)
+2025-12-04T22:57:07.958706Z TRACE ThreadId(01) phase: check (summary) (done)
+2025-12-04T22:57:07.958709Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-12-04T22:57:07.958848Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-12-04T22:57:07.958854Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-12-04T22:57:07.958914Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-12-04T22:57:07.958917Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-12-04T22:57:07.958943Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-12-04T22:57:07.958947Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-12-04T22:57:07.958950Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-12-04T22:57:07.958954Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (start)
+2025-12-04T22:57:07.958958Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (done)
+2025-12-04T22:57:07.958962Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-12-04T22:57:07.959694Z  INFO ThreadId(01) Running hook: pre_build/01_set_version.rhai
+2025-12-04T22:57:07.960752Z  INFO ThreadId(01) [pre_build/01_set_version.rhai] mod.cpp version set to 1.3.0.10
+2025-12-04T22:57:07.961081Z  INFO ThreadId(01) [pre_build/01_set_version.rhai] README.md version set to 1.3.0.10
+2025-12-04T22:57:07.961170Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-12-04T22:57:07.961175Z TRACE ThreadId(01) phase: pre_build (tex_headers) (start)
+2025-12-04T22:57:07.965333Z DEBUG ThreadId(07) Writing texture headers to "/addons/main/texHeaders.bin"
+2025-12-04T22:57:07.975739Z DEBUG ThreadId(08) Writing texture headers to "/addons/weapons/texHeaders.bin"
+2025-12-04T22:57:07.996762Z DEBUG ThreadId(06) Writing texture headers to "/addons/objects/texHeaders.bin"
+2025-12-04T22:57:07.997416Z  INFO ThreadId(01) Generated 3 texture headers
+2025-12-04T22:57:07.997445Z TRACE ThreadId(01) phase: pre_build (tex_headers) (done)
+2025-12-04T22:57:07.997450Z TRACE ThreadId(01) phase: pre_build (Files) (start)
+2025-12-04T22:57:07.997454Z TRACE ThreadId(01) phase: pre_build (Files) (done)
+2025-12-04T22:57:07.997457Z TRACE ThreadId(01) phase: pre_build (FilePatching) (start)
+2025-12-04T22:57:07.997756Z TRACE ThreadId(04) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\common" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\common"
+2025-12-04T22:57:07.997756Z TRACE ThreadId(03) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\chat_wheel_redux" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\chat_wheel_redux"
+2025-12-04T22:57:07.997792Z TRACE ThreadId(08) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\infantry" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\infantry"
+2025-12-04T22:57:07.997781Z TRACE ThreadId(06) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\objects" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\objects"
+2025-12-04T22:57:07.997787Z TRACE ThreadId(09) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\weapons" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\weapons"
+2025-12-04T22:57:07.997757Z TRACE ThreadId(05) junction link "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\main" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\addons\\main"
+2025-12-04T22:57:08.052463Z TRACE ThreadId(01) phase: pre_build (FilePatching) (done)
+2025-12-04T22:57:08.052500Z TRACE ThreadId(01) phase: pre_build (summary) (start)
+2025-12-04T22:57:08.052505Z TRACE ThreadId(01) phase: pre_build (summary) (done)
+2025-12-04T22:57:08.052509Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-12-04T22:57:08.201157Z  INFO ThreadId(01) Rapified 21 addon configs
+2025-12-04T22:57:08.201222Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-12-04T22:57:08.201227Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-12-04T22:57:08.284885Z TRACE ThreadId(05) sqf compiling /addons/chat_wheel_redux/Data/Functions/Settings/fn_configureAddonKeybinds.sqf
+2025-12-04T22:57:08.284915Z TRACE ThreadId(03) sqf compiling /addons/chat_wheel_redux/XEH_postInitClient.sqf
+2025-12-04T22:57:08.284895Z TRACE ThreadId(08) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_getDirFromBearing.sqf
+2025-12-04T22:57:08.284894Z TRACE ThreadId(13) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_removeQuotes.sqf
+2025-12-04T22:57:08.284894Z TRACE ThreadId(10) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_isPlayer.sqf
+2025-12-04T22:57:08.284901Z TRACE ThreadId(07) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_processTags.sqf
+2025-12-04T22:57:08.284901Z TRACE ThreadId(06) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_reloadEH.sqf
+2025-12-04T22:57:08.284901Z TRACE ThreadId(04) sqf compiling /addons/main/XEH_preStart.sqf
+2025-12-04T22:57:08.284901Z TRACE ThreadId(14) sqf compiling /addons/common/XEH_preStart.sqf
+2025-12-04T22:57:08.284905Z TRACE ThreadId(11) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_devLog.sqf
+2025-12-04T22:57:08.284893Z TRACE ThreadId(09) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_getConfigNameFromTag.sqf
+2025-12-04T22:57:08.284921Z TRACE ThreadId(12) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_findAllVoicelineTags.sqf
+2025-12-04T22:57:08.287935Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.287954Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.287955Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.287957Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.287988Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288002Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.287981Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288004Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.287979Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288014Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288030Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288068Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288097Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288107Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288120Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288108Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288314Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.288821Z TRACE ThreadId(03) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_configureMenus.sqf
+2025-12-04T22:57:08.289309Z TRACE ThreadId(06) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_reloadEHACE.sqf
+2025-12-04T22:57:08.289600Z TRACE ThreadId(12) sqf compiling /addons/common/functions/fnc_empty.sqf
+2025-12-04T22:57:08.289826Z TRACE ThreadId(13) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_getNearbyPlayers.sqf
+2025-12-04T22:57:08.290035Z TRACE ThreadId(11) sqf compiling /addons/main/XEH_postInit.sqf
+2025-12-04T22:57:08.290281Z TRACE ThreadId(10) sqf compiling /addons/common/XEH_preInit.sqf
+2025-12-04T22:57:08.290477Z TRACE ThreadId(08) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_stringReplace.sqf
+2025-12-04T22:57:08.291260Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.291279Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.291513Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.291528Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.291533Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.291540Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.292872Z TRACE ThreadId(09) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_unconsciousEH.sqf
+2025-12-04T22:57:08.293102Z TRACE ThreadId(06) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_throwGrenadeEH.sqf
+2025-12-04T22:57:08.293341Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fnc_tempPFH.sqf
+2025-12-04T22:57:08.293506Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293627Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293641Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293674Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293716Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293726Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293735Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293768Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293785Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293898Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293930Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293957Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.293981Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294010Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294037Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294071Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294133Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294162Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294334Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294389Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294397Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294437Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294499Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294507Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294531Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294538Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294543Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294548Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294564Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294572Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.294782Z TRACE ThreadId(14) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_throwGrenadeMain.sqf
+2025-12-04T22:57:08.295472Z TRACE ThreadId(11) sqf compiling /addons/main/functions/fnc_getNearbyUnits.sqf
+2025-12-04T22:57:08.295970Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.295992Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.296250Z TRACE ThreadId(08) sqf compiling /addons/chat_wheel_redux/Data/Functions/Utils/fn_sortByDistance.sqf
+2025-12-04T22:57:08.296800Z TRACE ThreadId(06) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_sendLocalMessage.sqf
+2025-12-04T22:57:08.297354Z TRACE ThreadId(12) sqf compiling /addons/objects/XEH_preInit.sqf
+2025-12-04T22:57:08.298291Z TRACE ThreadId(10) sqf compiling /addons/main/functions/fnc_playLocalSound.sqf
+2025-12-04T22:57:08.299340Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299386Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299404Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299410Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299414Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299431Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299437Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299467Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299517Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299562Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299592Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299600Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299611Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299633Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299640Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299646Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299652Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299711Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299721Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299740Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299750Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299756Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.299761Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300055Z TRACE ThreadId(07) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_sendGroupMessage.sqf
+2025-12-04T22:57:08.300082Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300102Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300108Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300171Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300179Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300179Z TRACE ThreadId(06) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_throwGrenadeEHACE.sqf
+2025-12-04T22:57:08.300245Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300285Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300293Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.300417Z TRACE ThreadId(08) sqf compiling /addons/chat_wheel_redux/Data/Functions/Sounds/fn_playLocalSound.sqf
+2025-12-04T22:57:08.301159Z TRACE ThreadId(03) sqf compiling /addons/chat_wheel_redux/Data/Functions/Chat/fn_openChatWheel.sqf
+2025-12-04T22:57:08.301453Z TRACE ThreadId(14) sqf compiling /addons/chat_wheel_redux/Data/Functions/Settings/fn_configureAddonOptions.sqf
+2025-12-04T22:57:08.301596Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.301620Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.301709Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.301725Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.301731Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.301737Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.302003Z TRACE ThreadId(04) sqf compiling /addons/main/XEH_postInitServer.sqf
+2025-12-04T22:57:08.302066Z TRACE ThreadId(07) sqf compiling /addons/chat_wheel_redux/Data/Functions/Settings/fn_createTagMenu.sqf
+2025-12-04T22:57:08.302078Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.302113Z TRACE ThreadId(08) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.302131Z TRACE ThreadId(03) sqf compiling /addons/chat_wheel_redux/Data/Functions/EventHandlers/fn_reloadMain.sqf
+2025-12-04T22:57:08.302187Z TRACE ThreadId(06) sqf compiling /addons/main/functions/fnc_isMedic.sqf
+2025-12-04T22:57:08.302235Z TRACE ThreadId(09) sqf compiling /addons/main/functions/fnc_loopSay3D_init.sqf
+2025-12-04T22:57:08.302912Z TRACE ThreadId(08) sqf compiling /addons/objects/functions/fnc_InitCE.sqf
+2025-12-04T22:57:08.303586Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303612Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303636Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303643Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303649Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303656Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303676Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fnc_isEngineer.sqf
+2025-12-04T22:57:08.303703Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303715Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303721Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.303727Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.304875Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.304890Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.304928Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.304936Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.304941Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.304947Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.304991Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.305001Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.305021Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.305029Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.305035Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.305040Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.305479Z TRACE ThreadId(11) sqf compiling /addons/main/functions/fnc_setMedic.sqf
+2025-12-04T22:57:08.305556Z TRACE ThreadId(03) sqf compiling /addons/main/functions/fnc_stringReplace.sqf
+2025-12-04T22:57:08.306263Z TRACE ThreadId(08) sqf compiling /addons/weapons/XEH_postInit.sqf
+2025-12-04T22:57:08.306936Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.306971Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.307014Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.307023Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.307040Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.307065Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.307065Z TRACE ThreadId(10) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.307175Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.307184Z TRACE ThreadId(12) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.308412Z TRACE ThreadId(04) sqf compiling /addons/main/XEH_preInit.sqf
+2025-12-04T22:57:08.308728Z TRACE ThreadId(10) sqf compiling /addons/weapons/XEH_preStart.sqf
+2025-12-04T22:57:08.309103Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.309126Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.309413Z TRACE ThreadId(12) sqf compiling /addons/objects/functions/fnc_InitFR.sqf
+2025-12-04T22:57:08.309717Z TRACE ThreadId(06) sqf compiling /addons/main/functions/fnc_isVehicleCrew.sqf
+2025-12-04T22:57:08.311245Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.311270Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.311280Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.311694Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.311699Z TRACE ThreadId(12) sqf compiling /addons/objects/functions/fnc_registerCEKits.sqf
+2025-12-04T22:57:08.311776Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.311784Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.311888Z TRACE ThreadId(11) sqf compiling /addons/weapons/XEH_preInit.sqf
+2025-12-04T22:57:08.311992Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312002Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312033Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312060Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312070Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312104Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312110Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312139Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312191Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312200Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312256Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312264Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312550Z TRACE ThreadId(08) sqf compiling /addons/objects/functions/fnc_registerFRKits.sqf
+2025-12-04T22:57:08.312577Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312592Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.312610Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.313754Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fnc_inFeatureCamera.sqf
+2025-12-04T22:57:08.313984Z TRACE ThreadId(09) sqf compiling /addons/main/functions/fnc_onArsenalOpen.sqf
+2025-12-04T22:57:08.314945Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.314993Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.315006Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.315017Z TRACE ThreadId(07) sqf compiling /addons/main/functions/fnc_tempDisableDamage.sqf
+2025-12-04T22:57:08.315038Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.315077Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.315085Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.315094Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.315124Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316322Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316337Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316350Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316391Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316401Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316417Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316467Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316478Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316490Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316544Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316557Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316573Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316616Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316625Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316637Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316672Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316678Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316689Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316721Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316727Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316737Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316769Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316775Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316785Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316818Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316825Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.316836Z TRACE ThreadId(05) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.317021Z TRACE ThreadId(03) sqf compiling /addons/main/XEH_postInitClient.sqf
+2025-12-04T22:57:08.317376Z TRACE ThreadId(10) sqf compiling /addons/objects/XEH_preStart.sqf
+2025-12-04T22:57:08.318372Z TRACE ThreadId(14) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318404Z TRACE ThreadId(11) sqf compiling /addons/main/functions/fnc_setEngineer.sqf
+2025-12-04T22:57:08.318861Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318906Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318920Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318919Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318947Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318958Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318961Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.318984Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.319648Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fnc_getReplacementItem.sqf
+2025-12-04T22:57:08.320139Z TRACE ThreadId(06) sqf compiling /addons/main/functions/fnc_loopSay3D.sqf
+2025-12-04T22:57:08.321673Z TRACE ThreadId(14) sqf compiling /addons/objects/XEH_postInit.sqf
+2025-12-04T22:57:08.323327Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.323422Z TRACE ThreadId(07) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324714Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324763Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324773Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324802Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324810Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324913Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324931Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.324939Z TRACE ThreadId(13) sqf compiling /addons/main/functions/fnc_rgbToHex.sqf
+2025-12-04T22:57:08.325081Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325096Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325132Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325170Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325252Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325287Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325386Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325405Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325415Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325487Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325555Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325584Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325593Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325616Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.325624Z TRACE ThreadId(09) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.326655Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.326681Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.326713Z TRACE ThreadId(11) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.328826Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.328854Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.328859Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329054Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329194Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329203Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329208Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329211Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329219Z TRACE ThreadId(06) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329230Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329256Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329283Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329287Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329291Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329295Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329310Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329326Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329339Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329361Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329366Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329374Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329377Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329405Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.329409Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.332387Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.332419Z TRACE ThreadId(13) wiki has syntax with [unknown] type
+2025-12-04T22:57:08.388061Z  INFO ThreadId(01) Compiled 60 sqf files
+2025-12-04T22:57:08.388147Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-12-04T22:57:08.388152Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-12-04T22:57:08.421562Z  INFO ThreadId(01) Checked 0 stringtables
+2025-12-04T22:57:08.421591Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-12-04T22:57:08.421597Z TRACE ThreadId(01) phase: build (start)
+2025-12-04T22:57:08.421750Z TRACE ThreadId(01) checking for version macro in VfsPath { path: "/addons/main/script_version.hpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod\\include" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\corra\\AppData\\Local\\Temp\\hemtt\\EBH Dev Works_EBH-Aux-Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "F:\\EBH Dev Works\\EBH-Aux-Mod" } } } } } }] } } }
+2025-12-04T22:57:08.427084Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
+2025-12-04T22:57:08.427107Z DEBUG ThreadId(01) building "addons/chat_wheel_redux" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_chat_wheel_redux.pbo"
+2025-12-04T22:57:08.436958Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqf"
+2025-12-04T22:57:08.437225Z TRACE ThreadId(01) adding file "LICENSE.md"
+2025-12-04T22:57:08.437383Z TRACE ThreadId(01) adding file "README.md"
+2025-12-04T22:57:08.437467Z TRACE ThreadId(01) adding file "config.bin"
+2025-12-04T22:57:08.437582Z TRACE ThreadId(01) adding file "CfgHints.hpp"
+2025-12-04T22:57:08.437667Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqfc"
+2025-12-04T22:57:08.438028Z TRACE ThreadId(01) adding file "CWR_VoiceLines.hpp"
+2025-12-04T22:57:08.438833Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveEnemyForcesWithinThePerimeter.wss"
+2025-12-04T22:57:08.439013Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\EnemyClankersApproaching.wss"
+2025-12-04T22:57:08.439177Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WatchItWatchItDroidsNearby.wss"
+2025-12-04T22:57:08.439359Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveHostileForcesNearby.wss"
+2025-12-04T22:57:08.439522Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\DroidForcesDangerClose.wss"
+2025-12-04T22:57:08.439689Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\SeppiesClosingIn.wss"
+2025-12-04T22:57:08.439851Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveHostilesNearby.wss"
+2025-12-04T22:57:08.440022Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\EnemyClankersSpotted.wss"
+2025-12-04T22:57:08.440191Z TRACE ThreadId(01) adding file "Data\\Audio\\ContactInfClose\\WeHaveEnemyForcesWithinThePerimeter2.wss"
+2025-12-04T22:57:08.440357Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\SmokeGetReady.wss"
+2025-12-04T22:57:08.440518Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\GrenadeDeployed.wss"
+2025-12-04T22:57:08.440680Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\SmokeGrenade.wss"
+2025-12-04T22:57:08.440848Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\MakeRoomGrenade.wss"
+2025-12-04T22:57:08.441010Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\GrenadeOutTakeThis.wss"
+2025-12-04T22:57:08.441168Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\ShieldUp.wss"
+2025-12-04T22:57:08.441329Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\CoverDroppedMoveInside.wss"
+2025-12-04T22:57:08.441489Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\SmokeCoverIncoming.wss"
+2025-12-04T22:57:08.441650Z TRACE ThreadId(01) adding file "Data\\Audio\\Throw\\ShieldDeployedInTheDome.wss"
+2025-12-04T22:57:08.441811Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\AlrightSquadFollowMe2.wss"
+2025-12-04T22:57:08.441972Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\SquadWithMe.wss"
+2025-12-04T22:57:08.442131Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\RallyUpAndFollowMe.wss"
+2025-12-04T22:57:08.442331Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\WithMeBrothers.wss"
+2025-12-04T22:57:08.442556Z TRACE ThreadId(01) adding file "Data\\Audio\\Follow\\AlrightSquadFollowMe.wss"
+2025-12-04T22:57:08.442724Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\SorrySir.wss"
+2025-12-04T22:57:08.442892Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\Sorry.wss"
+2025-12-04T22:57:08.443061Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\IHopeTheyDontWriteAReport.wss"
+2025-12-04T22:57:08.443224Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\Sorry2.wss"
+2025-12-04T22:57:08.443430Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\SorryAboutThat.wss"
+2025-12-04T22:57:08.443595Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\MyApologies.wss"
+2025-12-04T22:57:08.443758Z TRACE ThreadId(01) adding file "Data\\Audio\\Sorry\\SorryIHopeTheyDontWriteAReport.wss"
+2025-12-04T22:57:08.443922Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ImHit.wss"
+2025-12-04T22:57:08.444081Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ArmorCantTakeIt.wss"
+2025-12-04T22:57:08.444241Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\NeedAMedic.wss"
+2025-12-04T22:57:08.444400Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain.wss"
+2025-12-04T22:57:08.444561Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\NotSureIfICanMakeIt.wss"
+2025-12-04T22:57:08.444722Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain2.wss"
+2025-12-04T22:57:08.444902Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain4.wss"
+2025-12-04T22:57:08.445064Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\Pain3.wss"
+2025-12-04T22:57:08.445222Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\StartingToHurt.wss"
+2025-12-04T22:57:08.445382Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\TroubleBreathing.wss"
+2025-12-04T22:57:08.445541Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ArmorsComingApart.wss"
+2025-12-04T22:57:08.445702Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\IRequireMedicalSupport.wss"
+2025-12-04T22:57:08.445894Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\ArmorFailing.wss"
+2025-12-04T22:57:08.446055Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedMedic\\INeedAMedicOverHere.wss"
+2025-12-04T22:57:08.446220Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\CloneDownCloneDown.wss"
+2025-12-04T22:57:08.446382Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\ManDownStayTogether.wss"
+2025-12-04T22:57:08.446547Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\TrooperDown.wss"
+2025-12-04T22:57:08.446710Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\AGoodDeathFriendlyDown.wss"
+2025-12-04T22:57:08.446880Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\LostOneFriendlyDown.wss"
+2025-12-04T22:57:08.447059Z TRACE ThreadId(01) adding file "Data\\Audio\\Unconscious\\FriendlyDown.wss"
+2025-12-04T22:57:08.447233Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedAssistance.wss"
+2025-12-04T22:57:08.447395Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\WhereAreThoseReinforcements.wss"
+2025-12-04T22:57:08.447561Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedAssistance2.wss"
+2025-12-04T22:57:08.447732Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedBackup.wss"
+2025-12-04T22:57:08.447898Z TRACE ThreadId(01) adding file "Data\\Audio\\NeedHelp\\INeedReinforcementsOnMyPosition.wss"
+2025-12-04T22:57:08.448070Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_configureMenus.sqf"
+2025-12-04T22:57:08.448157Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendLocalMessage.sqfc"
+2025-12-04T22:57:08.448247Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_processTags.sqf"
+2025-12-04T22:57:08.448407Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendGroupMessage.sqf"
+2025-12-04T22:57:08.448602Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendLocalMessage.sqf"
+2025-12-04T22:57:08.448707Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_openChatWheel.sqfc"
+2025-12-04T22:57:08.448726Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_configureMenus.sqfc"
+2025-12-04T22:57:08.448849Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_openChatWheel.sqf"
+2025-12-04T22:57:08.448951Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_processTags.sqfc"
+2025-12-04T22:57:08.448965Z TRACE ThreadId(01) adding file "Data\\Functions\\Chat\\fn_sendGroupMessage.sqfc"
+2025-12-04T22:57:08.449065Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonKeybinds.sqf"
+2025-12-04T22:57:08.449192Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonKeybinds.sqfc"
+2025-12-04T22:57:08.449331Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonOptions.sqf"
+2025-12-04T22:57:08.449473Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_configureAddonOptions.sqfc"
+2025-12-04T22:57:08.449492Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_createTagMenu.sqfc"
+2025-12-04T22:57:08.449634Z TRACE ThreadId(01) adding file "Data\\Functions\\Settings\\fn_createTagMenu.sqf"
+2025-12-04T22:57:08.449764Z TRACE ThreadId(01) adding file "Data\\Functions\\Sounds\\fn_playLocalSound.sqfc"
+2025-12-04T22:57:08.449897Z TRACE ThreadId(01) adding file "Data\\Functions\\Sounds\\fn_playLocalSound.sqf"
+2025-12-04T22:57:08.450145Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_stringReplace.sqf"
+2025-12-04T22:57:08.450264Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_stringReplace.sqfc"
+2025-12-04T22:57:08.450280Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getConfigNameFromTag.sqfc"
+2025-12-04T22:57:08.450406Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getDirFromBearing.sqf"
+2025-12-04T22:57:08.450634Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getConfigNameFromTag.sqf"
+2025-12-04T22:57:08.450853Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_findAllVoicelineTags.sqf"
+2025-12-04T22:57:08.451082Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_devLog.sqf"
+2025-12-04T22:57:08.451186Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getDirFromBearing.sqfc"
+2025-12-04T22:57:08.451205Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getNearbyPlayers.sqfc"
+2025-12-04T22:57:08.451220Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_isPlayer.sqfc"
+2025-12-04T22:57:08.451235Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_sortByDistance.sqfc"
+2025-12-04T22:57:08.451250Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_removeQuotes.sqfc"
+2025-12-04T22:57:08.451264Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_devLog.sqfc"
+2025-12-04T22:57:08.451384Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_getNearbyPlayers.sqf"
+2025-12-04T22:57:08.451493Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_findAllVoicelineTags.sqfc"
+2025-12-04T22:57:08.451624Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_sortByDistance.sqf"
+2025-12-04T22:57:08.451849Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_isPlayer.sqf"
+2025-12-04T22:57:08.452076Z TRACE ThreadId(01) adding file "Data\\Functions\\Utils\\fn_removeQuotes.sqf"
+2025-12-04T22:57:08.452183Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEH.sqfc"
+2025-12-04T22:57:08.452199Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_unconsciousEH.sqfc"
+2025-12-04T22:57:08.452213Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEH.sqfc"
+2025-12-04T22:57:08.452226Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEHACE.sqfc"
+2025-12-04T22:57:08.452352Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEH.sqf"
+2025-12-04T22:57:08.452585Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_unconsciousEH.sqf"
+2025-12-04T22:57:08.452713Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadMain.sqfc"
+2025-12-04T22:57:08.452737Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEHACE.sqfc"
+2025-12-04T22:57:08.452751Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeMain.sqfc"
+2025-12-04T22:57:08.452959Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEHACE.sqf"
+2025-12-04T22:57:08.453174Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeEHACE.sqf"
+2025-12-04T22:57:08.453415Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_throwGrenadeMain.sqf"
+2025-12-04T22:57:08.453618Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadMain.sqf"
+2025-12-04T22:57:08.453816Z TRACE ThreadId(01) adding file "Data\\Functions\\EventHandlers\\fn_reloadEH.sqf"
+2025-12-04T22:57:08.470274Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
+2025-12-04T22:57:08.470293Z DEBUG ThreadId(01) building "addons/common" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_common.pbo"
+2025-12-04T22:57:08.471573Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2025-12-04T22:57:08.471732Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-12-04T22:57:08.471844Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
+2025-12-04T22:57:08.471961Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2025-12-04T22:57:08.472085Z TRACE ThreadId(01) adding file "config.bin"
+2025-12-04T22:57:08.472537Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2025-12-04T22:57:08.472732Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
+2025-12-04T22:57:08.472956Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
+2025-12-04T22:57:08.473268Z TRACE ThreadId(01) adding file "README.md"
+2025-12-04T22:57:08.473370Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqfc"
+2025-12-04T22:57:08.473484Z TRACE ThreadId(01) adding file "functions\\fnc_empty.sqf"
+2025-12-04T22:57:08.474333Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
+2025-12-04T22:57:08.474345Z DEBUG ThreadId(01) building "addons/infantry" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_infantry.pbo"
+2025-12-04T22:57:08.475534Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-12-04T22:57:08.475672Z TRACE ThreadId(01) adding file "config.bin"
+2025-12-04T22:57:08.475804Z TRACE ThreadId(01) adding file "CfgVehicles.hpp"
+2025-12-04T22:57:08.476093Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-12-04T22:57:08.477042Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
+2025-12-04T22:57:08.477058Z DEBUG ThreadId(01) building "addons/main" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_main.pbo"
+2025-12-04T22:57:08.482296Z TRACE ThreadId(01) adding file "XEH_postInitServer.sqf"
+2025-12-04T22:57:08.482415Z TRACE ThreadId(01) adding file "XEH_postInitServer.sqfc"
+2025-12-04T22:57:08.482506Z TRACE ThreadId(01) adding file "script_version.hpp"
+2025-12-04T22:57:08.482618Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2025-12-04T22:57:08.482722Z TRACE ThreadId(01) adding file "texHeaders.bin"
+2025-12-04T22:57:08.482811Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2025-12-04T22:57:08.482985Z TRACE ThreadId(01) adding file "script_mod.hpp"
+2025-12-04T22:57:08.483152Z TRACE ThreadId(01) adding file "CfgEditorSubcategories.hpp"
+2025-12-04T22:57:08.483312Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqf"
+2025-12-04T22:57:08.483398Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
+2025-12-04T22:57:08.483486Z TRACE ThreadId(01) adding file "CfgVehicles.hpp"
+2025-12-04T22:57:08.483666Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-12-04T22:57:08.483824Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2025-12-04T22:57:08.483980Z TRACE ThreadId(01) adding file "CfgSettings.hpp"
+2025-12-04T22:57:08.484146Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
+2025-12-04T22:57:08.484305Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
+2025-12-04T22:57:08.484397Z TRACE ThreadId(01) adding file "XEH_postInitClient.sqfc"
+2025-12-04T22:57:08.484410Z TRACE ThreadId(01) adding file "config.bin"
+2025-12-04T22:57:08.484500Z TRACE ThreadId(01) adding file "CfgEditorCategories.hpp"
+2025-12-04T22:57:08.484668Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2025-12-04T22:57:08.484906Z TRACE ThreadId(01) adding file "README.md"
+2025-12-04T22:57:08.485074Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-12-04T22:57:08.485166Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2025-12-04T22:57:08.485779Z TRACE ThreadId(01) adding file "data\\ui copy\\BIS_logo_small_ca.paa"
+2025-12-04T22:57:08.485975Z TRACE ThreadId(01) adding file "data\\ui copy\\Medic_ca.paa"
+2025-12-04T22:57:08.486158Z TRACE ThreadId(01) adding file "data\\ui copy\\CamoKC_co.paa"
+2025-12-04T22:57:08.486323Z TRACE ThreadId(01) adding file "data\\ui copy\\CamoGrey_co.paa"
+2025-12-04T22:57:08.486504Z TRACE ThreadId(01) adding file "data\\ui copy\\ACE_logo_small_ca.paa"
+2025-12-04T22:57:08.486729Z TRACE ThreadId(01) adding file "data\\ui copy\\CamoBrown_co.paa"
+2025-12-04T22:57:08.486908Z TRACE ThreadId(01) adding file "data\\ui copy\\EOD_White_ca.paa"
+2025-12-04T22:57:08.487088Z TRACE ThreadId(01) adding file "data\\ui copy\\logo_kc_ca.paa"
+2025-12-04T22:57:08.487298Z TRACE ThreadId(01) adding file "data\\ui copy\\logo_kcKeeli_ca.paa"
+2025-12-04T22:57:08.487500Z TRACE ThreadId(01) adding file "data\\ui copy\\Medic_White_ca.paa"
+2025-12-04T22:57:08.487730Z TRACE ThreadId(01) adding file "data\\hpp\\defineDIKCodes.hpp"
+2025-12-04T22:57:08.487837Z TRACE ThreadId(01) adding file "functions\\fnc_getNearbyUnits.sqfc"
+2025-12-04T22:57:08.487931Z TRACE ThreadId(01) adding file "functions\\fnc_onArsenalOpen.sqf"
+2025-12-04T22:57:08.488059Z TRACE ThreadId(01) adding file "functions\\fnc_tempPFH.sqfc"
+2025-12-04T22:57:08.488075Z TRACE ThreadId(01) adding file "functions\\fnc_tempDisableDamage.sqfc"
+2025-12-04T22:57:08.488085Z TRACE ThreadId(01) adding file "functions\\fnc_isVehicleCrew.sqfc"
+2025-12-04T22:57:08.488185Z TRACE ThreadId(01) adding file "functions\\fnc_getReplacementItem.sqf"
+2025-12-04T22:57:08.488359Z TRACE ThreadId(01) adding file "functions\\fnc_inFeatureCamera.sqf"
+2025-12-04T22:57:08.488448Z TRACE ThreadId(01) adding file "functions\\fnc_onArsenalOpen.sqfc"
+2025-12-04T22:57:08.488461Z TRACE ThreadId(01) adding file "functions\\fnc_setEngineer.sqfc"
+2025-12-04T22:57:08.488558Z TRACE ThreadId(01) adding file "functions\\fnc_setEngineer.sqf"
+2025-12-04T22:57:08.488732Z TRACE ThreadId(01) adding file "functions\\fnc_tempDisableDamage.sqf"
+2025-12-04T22:57:08.488821Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D.sqfc"
+2025-12-04T22:57:08.488914Z TRACE ThreadId(01) adding file "functions\\fnc_tempPFH.sqf"
+2025-12-04T22:57:08.489093Z TRACE ThreadId(01) adding file "functions\\fnc_rgbToHex.sqf"
+2025-12-04T22:57:08.489257Z TRACE ThreadId(01) adding file "functions\\fnc_stringReplace.sqf"
+2025-12-04T22:57:08.489344Z TRACE ThreadId(01) adding file "functions\\fnc_inFeatureCamera.sqfc"
+2025-12-04T22:57:08.489435Z TRACE ThreadId(01) adding file "functions\\fnc_playLocalSound.sqf"
+2025-12-04T22:57:08.489523Z TRACE ThreadId(01) adding file "functions\\fnc_isMedic.sqfc"
+2025-12-04T22:57:08.489641Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D_init.sqf"
+2025-12-04T22:57:08.489739Z TRACE ThreadId(01) adding file "functions\\fnc_isEngineer.sqfc"
+2025-12-04T22:57:08.489829Z TRACE ThreadId(01) adding file "functions\\fnc_isMedic.sqf"
+2025-12-04T22:57:08.489990Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D.sqf"
+2025-12-04T22:57:08.490157Z TRACE ThreadId(01) adding file "functions\\fnc_isEngineer.sqf"
+2025-12-04T22:57:08.490248Z TRACE ThreadId(01) adding file "functions\\fnc_getReplacementItem.sqfc"
+2025-12-04T22:57:08.490338Z TRACE ThreadId(01) adding file "functions\\fnc_isVehicleCrew.sqf"
+2025-12-04T22:57:08.490424Z TRACE ThreadId(01) adding file "functions\\fnc_setMedic.sqfc"
+2025-12-04T22:57:08.490436Z TRACE ThreadId(01) adding file "functions\\fnc_playLocalSound.sqfc"
+2025-12-04T22:57:08.490445Z TRACE ThreadId(01) adding file "functions\\fnc_loopSay3D_init.sqfc"
+2025-12-04T22:57:08.490454Z TRACE ThreadId(01) adding file "functions\\fnc_rgbToHex.sqfc"
+2025-12-04T22:57:08.490463Z TRACE ThreadId(01) adding file "functions\\fnc_stringReplace.sqfc"
+2025-12-04T22:57:08.490564Z TRACE ThreadId(01) adding file "functions\\fnc_setMedic.sqf"
+2025-12-04T22:57:08.490743Z TRACE ThreadId(01) adding file "functions\\fnc_getNearbyUnits.sqf"
+2025-12-04T22:57:08.492871Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
+2025-12-04T22:57:08.492894Z DEBUG ThreadId(01) building "addons/objects" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_objects.pbo"
+2025-12-04T22:57:08.497438Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-12-04T22:57:08.497559Z TRACE ThreadId(01) adding file "config.bin"
+2025-12-04T22:57:08.497676Z TRACE ThreadId(01) adding file "XEH_PREP.hpp"
+2025-12-04T22:57:08.497786Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2025-12-04T22:57:08.498016Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-12-04T22:57:08.498475Z TRACE ThreadId(01) adding file "CfgVehicles.hpp"
+2025-12-04T22:57:08.498685Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2025-12-04T22:57:08.498901Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2025-12-04T22:57:08.498996Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2025-12-04T22:57:08.499110Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2025-12-04T22:57:08.499210Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
+2025-12-04T22:57:08.499302Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
+2025-12-04T22:57:08.499463Z TRACE ThreadId(01) adding file "texHeaders.bin"
+2025-12-04T22:57:08.499583Z TRACE ThreadId(01) adding file "resupply\\config.bin"
+2025-12-04T22:57:08.499701Z TRACE ThreadId(01) adding file "resupply\\script_component.hpp"
+2025-12-04T22:57:08.499877Z TRACE ThreadId(01) adding file "resupply\\CfgVehicles.hpp"
+2025-12-04T22:57:08.500266Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Squad_Ammo_Crate_co.paa"
+2025-12-04T22:57:08.500448Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Platoon_Medical_Crate_co.paa"
+2025-12-04T22:57:08.500638Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Platoon_Ammo_Crate_co.paa"
+2025-12-04T22:57:08.500809Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Explosives_Crate_co.paa"
+2025-12-04T22:57:08.500979Z TRACE ThreadId(01) adding file "resupply\\data\\textures\\Squad_Medical_Crate_co.paa"
+2025-12-04T22:57:08.501307Z TRACE ThreadId(01) adding file "data\\flags\\505th_Damaged_co.paa"
+2025-12-04T22:57:08.501469Z TRACE ThreadId(01) adding file "data\\flags\\505th_co.paa"
+2025-12-04T22:57:08.501647Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign_NOHQ.paa"
+2025-12-04T22:57:08.501809Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign2_CO.paa"
+2025-12-04T22:57:08.501973Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign1_CO.png"
+2025-12-04T22:57:08.502157Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign1_CO.paa"
+2025-12-04T22:57:08.502335Z TRACE ThreadId(01) adding file "data\\signs\\AirbaseSign2_CO.png"
+2025-12-04T22:57:08.502493Z TRACE ThreadId(01) adding file "functions\\fnc_InitCE.sqf"
+2025-12-04T22:57:08.502670Z TRACE ThreadId(01) adding file "functions\\fnc_InitFR.sqf"
+2025-12-04T22:57:08.502757Z TRACE ThreadId(01) adding file "functions\\fnc_InitCE.sqfc"
+2025-12-04T22:57:08.502856Z TRACE ThreadId(01) adding file "functions\\fnc_registerCEKits.sqf"
+2025-12-04T22:57:08.502949Z TRACE ThreadId(01) adding file "functions\\fnc_registerFRKits.sqfc"
+2025-12-04T22:57:08.502962Z TRACE ThreadId(01) adding file "functions\\fnc_InitFR.sqfc"
+2025-12-04T22:57:08.503078Z TRACE ThreadId(01) adding file "functions\\fnc_registerFRKits.sqf"
+2025-12-04T22:57:08.503227Z TRACE ThreadId(01) adding file "functions\\fnc_registerCEKits.sqfc"
+2025-12-04T22:57:08.514233Z DEBUG ThreadId(01) "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons" already exists
+2025-12-04T22:57:08.514254Z DEBUG ThreadId(01) building "addons/weapons" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\addons\\EHB_weapons.pbo"
+2025-12-04T22:57:08.526212Z TRACE ThreadId(01) adding file "XEH_postInit.sqfc"
+2025-12-04T22:57:08.526710Z TRACE ThreadId(01) adding file "CfgAmmo.hpp"
+2025-12-04T22:57:08.526872Z TRACE ThreadId(01) adding file "XEH_preStart.sqf"
+2025-12-04T22:57:08.527051Z TRACE ThreadId(01) adding file "CfgMagazines.hpp"
+2025-12-04T22:57:08.527219Z TRACE ThreadId(01) adding file "XEH_postInit.sqf"
+2025-12-04T22:57:08.527302Z TRACE ThreadId(01) adding file "XEH_preInit.sqfc"
+2025-12-04T22:57:08.527396Z TRACE ThreadId(01) adding file "CfgEventHandlers.hpp"
+2025-12-04T22:57:08.527602Z TRACE ThreadId(01) adding file "script_macros.hpp"
+2025-12-04T22:57:08.527795Z TRACE ThreadId(01) adding file "script_component.hpp"
+2025-12-04T22:57:08.527884Z TRACE ThreadId(01) adding file "config.bin"
+2025-12-04T22:57:08.527898Z TRACE ThreadId(01) adding file "XEH_preStart.sqfc"
+2025-12-04T22:57:08.528073Z TRACE ThreadId(01) adding file "XEH_preInit.sqf"
+2025-12-04T22:57:08.528187Z TRACE ThreadId(01) adding file "texHeaders.bin"
+2025-12-04T22:57:08.528287Z TRACE ThreadId(01) adding file "m295bmr\\CfgWeapons.hpp"
+2025-12-04T22:57:08.528491Z TRACE ThreadId(01) adding file "m295bmr\\CfgMagazines.hpp"
+2025-12-04T22:57:08.528616Z TRACE ThreadId(01) adding file "m295bmr\\config.bin"
+2025-12-04T22:57:08.528793Z TRACE ThreadId(01) adding file "m295bmr\\script_component.hpp"
+2025-12-04T22:57:08.528957Z TRACE ThreadId(01) adding file "ma5cgl\\CfgMagazinesWells.hpp"
+2025-12-04T22:57:08.529128Z TRACE ThreadId(01) adding file "ma5cgl\\CfgSoundShaders.hpp"
+2025-12-04T22:57:08.529301Z TRACE ThreadId(01) adding file "ma5cgl\\script_component.hpp"
+2025-12-04T22:57:08.529545Z TRACE ThreadId(01) adding file "ma5cgl\\CfgMagazines.hpp"
+2025-12-04T22:57:08.529709Z TRACE ThreadId(01) adding file "ma5cgl\\CfgWeapons.hpp"
+2025-12-04T22:57:08.529868Z TRACE ThreadId(01) adding file "ma5cgl\\config.bin"
+2025-12-04T22:57:08.529961Z TRACE ThreadId(01) adding file "ma5cgl\\CfgSoundSets.hpp"
+2025-12-04T22:57:08.530321Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-05.ogg"
+2025-12-04T22:57:08.530498Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-10.ogg"
+2025-12-04T22:57:08.530673Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-04.ogg"
+2025-12-04T22:57:08.530835Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-03.ogg"
+2025-12-04T22:57:08.531020Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-12.ogg"
+2025-12-04T22:57:08.531225Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-06.ogg"
+2025-12-04T22:57:08.531389Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-01.ogg"
+2025-12-04T22:57:08.531583Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-13.ogg"
+2025-12-04T22:57:08.531753Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-08.ogg"
+2025-12-04T22:57:08.531917Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-02.ogg"
+2025-12-04T22:57:08.532100Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-11.ogg"
+2025-12-04T22:57:08.532268Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-09.ogg"
+2025-12-04T22:57:08.532439Z TRACE ThreadId(01) adding file "ma5cgl\\data\\audio\\MA5C-07.ogg"
+2025-12-04T22:57:08.532630Z TRACE ThreadId(01) adding file "ma5cgl\\data\\textures\\smartlinkc_co.paa"
+2025-12-04T22:57:08.532796Z TRACE ThreadId(01) adding file "ma5cgl\\data\\textures\\coverc_co.paa"
+2025-12-04T22:57:08.532966Z TRACE ThreadId(01) adding file "ma5cgl\\data\\textures\\rend_weapon_co.paa"
+2025-12-04T22:57:08.533163Z TRACE ThreadId(01) adding file "ma5cgl\\data\\textures\\MA5_Reticle_green.paa"
+2025-12-04T22:57:08.533408Z TRACE ThreadId(01) adding file "m73\\script_component.hpp"
+2025-12-04T22:57:08.533588Z TRACE ThreadId(01) adding file "m73\\CfgWeapons.hpp"
+2025-12-04T22:57:08.533697Z TRACE ThreadId(01) adding file "m73\\config.bin"
+2025-12-04T22:57:08.533791Z TRACE ThreadId(01) adding file "m73\\CfgMagazines.hpp"
+2025-12-04T22:57:08.533959Z TRACE ThreadId(01) adding file "vk78commando\\script_component.hpp"
+2025-12-04T22:57:08.534139Z TRACE ThreadId(01) adding file "vk78commando\\CfgWeapons.hpp"
+2025-12-04T22:57:08.534228Z TRACE ThreadId(01) adding file "vk78commando\\config.bin"
+2025-12-04T22:57:08.534328Z TRACE ThreadId(01) adding file "vk78commando\\CfgMagazines.hpp"
+2025-12-04T22:57:08.534633Z TRACE ThreadId(01) adding file "m6g\\script_component.hpp"
+2025-12-04T22:57:08.534805Z TRACE ThreadId(01) adding file "m6g\\CfgMagazines.hpp"
+2025-12-04T22:57:08.534969Z TRACE ThreadId(01) adding file "m6g\\CfgWeapons.hpp"
+2025-12-04T22:57:08.535070Z TRACE ThreadId(01) adding file "m6g\\config.bin"
+2025-12-04T22:57:08.535244Z TRACE ThreadId(01) adding file "mr10longbow\\CfgWeapons.hpp"
+2025-12-04T22:57:08.535482Z TRACE ThreadId(01) adding file "mr10longbow\\script_component.hpp"
+2025-12-04T22:57:08.535580Z TRACE ThreadId(01) adding file "mr10longbow\\config.bin"
+2025-12-04T22:57:08.535670Z TRACE ThreadId(01) adding file "mr10longbow\\CfgMagazines.hpp"
+2025-12-04T22:57:08.535918Z TRACE ThreadId(01) adding file "lmr11shortbow\\script_component.hpp"
+2025-12-04T22:57:08.536089Z TRACE ThreadId(01) adding file "lmr11shortbow\\CfgMagazines.hpp"
+2025-12-04T22:57:08.536261Z TRACE ThreadId(01) adding file "lmr11shortbow\\CfgWeapons.hpp"
+2025-12-04T22:57:08.536355Z TRACE ThreadId(01) adding file "lmr11shortbow\\config.bin"
+2025-12-04T22:57:08.536448Z TRACE ThreadId(01) adding file "mhg16(wip)\\CfgMagazines.hpp"
+2025-12-04T22:57:08.536659Z TRACE ThreadId(01) adding file "mhg16(wip)\\config.bin"
+2025-12-04T22:57:08.536751Z TRACE ThreadId(01) adding file "mhg16(wip)\\CfgWeapons.hpp"
+2025-12-04T22:57:08.536916Z TRACE ThreadId(01) adding file "mhg16(wip)\\script_component.hpp"
+2025-12-04T22:57:08.537006Z TRACE ThreadId(01) adding file "m98harvester\\config.bin"
+2025-12-04T22:57:08.537182Z TRACE ThreadId(01) adding file "m98harvester\\script_component.hpp"
+2025-12-04T22:57:08.537344Z TRACE ThreadId(01) adding file "m98harvester\\CfgWeapons.hpp"
+2025-12-04T22:57:08.537503Z TRACE ThreadId(01) adding file "m98harvester\\CfgMagazines.hpp"
+2025-12-04T22:57:08.537675Z TRACE ThreadId(01) adding file "m98harvester\\CfgMagazinesWells.hpp"
+2025-12-04T22:57:08.537847Z TRACE ThreadId(01) adding file "m247\\CfgWeapons.hpp"
+2025-12-04T22:57:08.537938Z TRACE ThreadId(01) adding file "m247\\config.bin"
+2025-12-04T22:57:08.538033Z TRACE ThreadId(01) adding file "m247\\CfgMagazines.hpp"
+2025-12-04T22:57:08.538274Z TRACE ThreadId(01) adding file "m247\\script_component.hpp"
+2025-12-04T22:57:08.538443Z TRACE ThreadId(01) adding file "ma5c\\CfgMagazines.hpp"
+2025-12-04T22:57:08.538609Z TRACE ThreadId(01) adding file "ma5c\\CfgSoundSets.hpp"
+2025-12-04T22:57:08.538842Z TRACE ThreadId(01) adding file "ma5c\\CfgWeapons.hpp"
+2025-12-04T22:57:08.539084Z TRACE ThreadId(01) adding file "ma5c\\CfgMagazinesWells.hpp"
+2025-12-04T22:57:08.539253Z TRACE ThreadId(01) adding file "ma5c\\script_component.hpp"
+2025-12-04T22:57:08.539340Z TRACE ThreadId(01) adding file "ma5c\\config.bin"
+2025-12-04T22:57:08.539429Z TRACE ThreadId(01) adding file "ma5c\\CfgSoundShaders.hpp"
+2025-12-04T22:57:08.539751Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\MA5_Reticle_green.paa"
+2025-12-04T22:57:08.539923Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\coverc_co.paa"
+2025-12-04T22:57:08.540101Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\smartlinkc_co.paa"
+2025-12-04T22:57:08.540270Z TRACE ThreadId(01) adding file "ma5c\\data\\textures\\rend_weapon_co.paa"
+2025-12-04T22:57:08.540442Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-01.ogg"
+2025-12-04T22:57:08.540611Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-02.ogg"
+2025-12-04T22:57:08.540786Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-04.ogg"
+2025-12-04T22:57:08.540961Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-05.ogg"
+2025-12-04T22:57:08.541136Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-06.ogg"
+2025-12-04T22:57:08.541300Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-08.ogg"
+2025-12-04T22:57:08.541462Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-09.ogg"
+2025-12-04T22:57:08.541703Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-07.ogg"
+2025-12-04T22:57:08.541944Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-03.ogg"
+2025-12-04T22:57:08.542158Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-11.ogg"
+2025-12-04T22:57:08.542362Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-10.ogg"
+2025-12-04T22:57:08.542617Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-13.ogg"
+2025-12-04T22:57:08.542836Z TRACE ThreadId(01) adding file "ma5c\\data\\audio\\MA5C-12.ogg"
+2025-12-04T22:57:08.542953Z TRACE ThreadId(01) adding file "accessories\\config.bin"
+2025-12-04T22:57:08.543083Z TRACE ThreadId(01) adding file "accessories\\CfgWeapons.hpp"
+2025-12-04T22:57:08.543307Z TRACE ThreadId(01) adding file "accessories\\script_component.hpp"
+2025-12-04T22:57:08.543707Z TRACE ThreadId(01) adding file "br45b\\script_component.hpp"
+2025-12-04T22:57:08.543922Z TRACE ThreadId(01) adding file "br45b\\CfgMagazinesWells.hpp"
+2025-12-04T22:57:08.544010Z TRACE ThreadId(01) adding file "br45b\\config.bin"
+2025-12-04T22:57:08.544101Z TRACE ThreadId(01) adding file "br45b\\CfgWeapons.hpp"
+2025-12-04T22:57:08.544262Z TRACE ThreadId(01) adding file "br45b\\CfgMagazines.hpp"
+2025-12-04T22:57:08.544523Z TRACE ThreadId(01) adding file "ma37k\\CfgWeapons.hpp"
+2025-12-04T22:57:08.544613Z TRACE ThreadId(01) adding file "ma37k\\config.bin"
+2025-12-04T22:57:08.544779Z TRACE ThreadId(01) adding file "ma37k\\script_component.hpp"
+2025-12-04T22:57:08.563044Z  INFO ThreadId(01) Built 6 PBOs
+2025-12-04T22:57:08.563078Z TRACE ThreadId(01) phase: build (done)
+2025-12-04T22:57:08.563083Z TRACE ThreadId(01) phase: post_build (BOM Check) (start)
+2025-12-04T22:57:08.563087Z TRACE ThreadId(01) phase: post_build (BOM Check) (done)
+2025-12-04T22:57:08.563090Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (start)
+2025-12-04T22:57:08.563093Z TRACE ThreadId(01) phase: post_build (Final New Line Check) (done)
+2025-12-04T22:57:08.563096Z TRACE ThreadId(01) phase: post_build (Hooks) (start)
+2025-12-04T22:57:08.563198Z TRACE ThreadId(01) no post_build hooks
+2025-12-04T22:57:08.563204Z TRACE ThreadId(01) phase: post_build (Hooks) (done)
+2025-12-04T22:57:08.563208Z TRACE ThreadId(01) phase: post_build (tex_headers) (start)
+2025-12-04T22:57:08.563211Z TRACE ThreadId(01) phase: post_build (tex_headers) (done)
+2025-12-04T22:57:08.563214Z TRACE ThreadId(01) phase: post_build (Files) (start)
+2025-12-04T22:57:08.898481Z DEBUG ThreadId(01) copying "/meta.cpp" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\meta.cpp"
+2025-12-04T22:57:08.899402Z DEBUG ThreadId(01) copying "/LICENSE.md" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\LICENSE.md"
+2025-12-04T22:57:08.900146Z DEBUG ThreadId(01) copying "/mod.cpp" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\mod.cpp"
+2025-12-04T22:57:08.900642Z DEBUG ThreadId(01) copying "/EHB.paa" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\EHB.paa"
+2025-12-04T22:57:08.902125Z DEBUG ThreadId(01) copying "/README.md" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\README.md"
+2025-12-04T22:57:08.902651Z DEBUG ThreadId(01) copying "/EHB.png" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev\\EHB.png"
+2025-12-04T22:57:08.907191Z  INFO ThreadId(01) Copied 6 files
+2025-12-04T22:57:08.907219Z TRACE ThreadId(01) phase: post_build (Files) (done)
+2025-12-04T22:57:08.907225Z TRACE ThreadId(01) phase: post_build (FilePatching) (start)
+2025-12-04T22:57:08.907434Z TRACE ThreadId(01) removing existing symlink at C:\Program Files (x86)\Steam\steamapps\common\Arma 3\BLU\EHB
+2025-12-04T22:57:08.907728Z TRACE ThreadId(01) junction link "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3\\BLU\\EHB" => "F:\\EBH Dev Works\\EBH-Aux-Mod\\.hemttout\\dev"
+2025-12-04T22:57:08.920073Z  INFO ThreadId(01) Symlink created at C:\Program Files (x86)\Steam\steamapps\common\Arma 3\BLU\EHB
+2025-12-04T22:57:08.920101Z TRACE ThreadId(01) phase: post_build (FilePatching) (done)
+2025-12-04T22:57:08.920105Z TRACE ThreadId(01) phase: post_build (summary) (start)
+2025-12-04T22:57:08.921330Z TRACE ThreadId(01) phase: post_build (summary) (done)
+2025-12-04T22:57:08.921337Z TRACE ThreadId(01) phase: post_build (Rapifier) (start)
+2025-12-04T22:57:08.921340Z TRACE ThreadId(01) phase: post_build (Rapifier) (done)
+2025-12-04T22:57:08.921344Z TRACE ThreadId(01) phase: post_build (SQF) (start)
+2025-12-04T22:57:08.921350Z TRACE ThreadId(01) phase: post_build (SQF) (done)
+2025-12-04T22:57:08.921353Z TRACE ThreadId(01) phase: post_build (Stringtables) (start)
+2025-12-04T22:57:08.921359Z TRACE ThreadId(01) phase: post_build (Stringtables) (done)
+2025-12-04T22:57:08.930000Z  INFO ThreadId(01) Launching "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Arma 3" with:
   -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\1124993203"
   -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\1224892496"
   -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\1260802825"
@@ -896,6 +939,7 @@
   -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\893328083"
   -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\893339590"
   -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\893349825"
+  -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\894678801"
   -mod="C:\Program Files (x86)\Steam\steamapps\workshop\content\107410\949698441"
   -mod="F:\EBH Dev Works\EBH-Aux-Mod\.hemttout/dev"
   -skipIntro
@@ -908,5 +952,5 @@
   -world=empty
   "F:\EBH Dev Works\EBH-Aux-Mod\.hemtt\missions\EHB_Test.VR\mission.sqm"
   -filePatching
-2025-11-24T19:00:17.410155Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
-2025-11-24T19:00:17.410786Z TRACE ThreadId(01) wrote 4 ci annotations to .hemttout/ci_annotations.txt
+2025-12-04T22:57:08.934100Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-12-04T22:57:08.934156Z TRACE ThreadId(01) wrote 0 ci annotations to .hemttout/ci_annotations.txt
