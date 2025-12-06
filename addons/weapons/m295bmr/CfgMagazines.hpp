@@ -1,9 +1,9 @@
 class CfgMagazines {
     class CLASS(Mag_Base);
 
-    class CLASS(25Rnd_762x51_Mag): CLASS(Mag_Base) {
+    class CLASS(25Rnd_762xV7_Mag): CLASS(Mag_Base) {
         SCOPE_PUBLIC;
-        baseMagazine = QCLASS(25Rnd_762x51_Mag);
+        baseMagazine = QCLASS(25Rnd_762xV7_Mag);
         author = AUTHOR;
 
         displayName = "[EHB] 7.62xV7 25Rnd Mag";

@@ -30,13 +30,9 @@ class CfgWeapons {
         cartridgePos = "nabojnicestart";
         cartridgeVel = "nabojniceend";
 
-        magazines[] = { QCLASS(25Rnd_762x51_Mag) };
+        magazines[] = { QCLASS(25Rnd_762xV7_Mag) };
+        magazineWell[] = { QCLASS(Magwell_M295BMR) };
         modes[] = { "Single", "FullAuto" };
-
-        dispersion = 0.00029;
-        maxZeroing = 1600;
-        discreteDistance[] = {100,200,300,400,500,600};
-        discreteDistanceInitIndex = 0;
 
         class WeaponSlotsInfo: WeaponSlotsInfo {
             mass = 75;
@@ -65,35 +61,11 @@ class CfgWeapons {
         class Single: Single {
             displayName = "Semi-Auto";
             reloadTime = 0.15;
-            dispersion = 0.00029;
-            recoil = "recoil_ebr";
-            recoilProne = "recoil_single_prone_ebr";
-            soundContinuous = 0;
-
-            minRange = 2;   minRangeProbab = 0.3;
-            midRange = 300; midRangeProbab = 0.7;
-            maxRange = 800; maxRangeProbab = 0.1;
-
-            aiRateOfFire = 1.5;
-            aiRateOfFireDispersion = 1;
-            aiRateOfFireDistance = 500;
         };
 
         class FullAuto: FullAuto {
             displayName = "Full-Auto";
             reloadTime = 0.09;
-            dispersion = 0.00033;
-            recoil = "recoil_auto_primary_3outof10";
-            recoilProne = "recoil_auto_prone_primary_3outof10";
-            soundContinuous = 0;
-
-            minRange = 0;   minRangeProbab = 0.9;
-            midRange = 200; midRangeProbab = 0.7;
-            maxRange = 400; maxRangeProbab = 0.05;
-
-            aiRateOfFire = 0.1;
-            aiRateOfFireDispersion = 1;
-            aiRateOfFireDistance = 50;
         };
     };
 };

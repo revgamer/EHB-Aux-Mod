@@ -1,0 +1,1 @@
+UnderBarrelSlot - addons/weapons/vk78commando/CfgWeapons.hpp:14:19
