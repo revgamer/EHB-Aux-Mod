@@ -11,7 +11,7 @@ class CfgWeapons {
         author = AUTHOR;
         baseWeapon = QCLASS(PUMA);
 
-        displayName = "[EHB] PUMA";
+        displayName = "[EHB] Puma";
         descriptionShort = "Light rapid firing pistol";
 
         modes[] = {"Single", "FullAuto"};

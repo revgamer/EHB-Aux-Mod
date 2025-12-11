@@ -127,7 +127,7 @@ class CfgAmmo {
     };
 
      // ================================
-    // Boomslang AMMUNITION (12.7x108mm)
+    // VTR-93 Vindicta AMMUNITION (12.7x108mm)
     // Heavy Depleted Uranium Round
     // ================================
     class CLASS(127x108_HDUR): B_127x108_Ball {
