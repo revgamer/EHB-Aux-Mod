@@ -1,13 +1,13 @@
 class CfgAmmo {
     // --- Base classes ---
     class B_762x51_Ball;
+    class B_45ACP_Ball;
     class B_9x21_Ball;
     class OPTRE_B_127x40_Ball;
     class B_145x114_HVAP;
     class B_145x114_HEAP;
     class B_145x114_APFSDS;
-
-
+    class B_127x108_Ball;
 
     // OPTRE Custom Ammunition
     // --- 7.62x51mm Ball ---
@@ -126,6 +126,23 @@ class CfgAmmo {
         model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
     };
 
+     // ================================
+    // Boomslang AMMUNITION (12.7x108mm)
+    // Heavy Depleted Uranium Round
+    // ================================
+    class CLASS(127x108_HDUR): B_127x108_Ball {
+        cartridge = "FxCartridge_127";
+
+        // --- Ballistics / Performance ---
+        hit = 80;
+        caliber = 10.0;
+        typicalSpeed = 1800;            // high velocity (m/s)
+        airFriction = -0.0001;        // excellent velocity retention
+        timeToLive = 20;
+        tracerScale = 3;
+        model = "\A3\Weapons_f\Data\bullettracer\tracer_red";
+    };
+
     // ================================
     // Pistol Ammo Config
     // ================================
@@ -138,6 +155,16 @@ class CfgAmmo {
         airFriction = -0.002;
         timeToLive = 6;
         tracerScale = 1.3;
+    };
+
+    class CLASS(45ACP_Ball): B_45ACP_Ball {
+        cartridge = "FxCartridge_9mm";
+        hit = 5;
+        caliber = 1.4;
+        typicalSpeed = 280;
+        airFriction = -0.00082143;
+        timeToLive = 6;
+        tracerScale = 0.6;
     };
 
     class CLASS(9x21_Ball): B_9x21_Ball {

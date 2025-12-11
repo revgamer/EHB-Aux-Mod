@@ -44,7 +44,7 @@ class CfgWeapons {
                       };
         magazineWell[] = {QCLASS(Magwell_M98_Harvester)};
 
-        linkedItems[] = { QCLASS(M98H_Scope) };
+        linkedItems[] = { QCLASS(M98HA_Scope) };
 
         // Weapon handling
         class WeaponSlotsInfo: WeaponSlotsInfo {
@@ -52,7 +52,7 @@ class CfgWeapons {
 
             class CowsSlot: CowsSlot {
                 compatibleItems[] = {
-                    QCLASS(M98H_Scope)
+                    QCLASS(M98HA_Scope)
                 };
             };
 
@@ -61,7 +61,9 @@ class CfgWeapons {
             };
 
             class MuzzleSlot: MuzzleSlot {
-                compatibleItems[] = {};
+                compatibleItems[] = {
+                    QCLASS(M98H_Suppressor)
+                };
             };
 
             class UnderBarrelSlot: UnderBarrelSlot {

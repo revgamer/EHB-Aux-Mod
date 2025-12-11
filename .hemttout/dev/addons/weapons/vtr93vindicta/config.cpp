@@ -9,17 +9,17 @@ class CfgPatches {
 
         requiredAddons[] = {
             QUOTE(ADDON),
-            "TKE_Weapons_handgun_mhg16",
-            "OPTRE_JSRS_Sounds",
-            "OPTRE_ACE_Compat"
+            "WBK_SciFiWeaponary",
+            "OPTRE_ACE_Compat",
+            "OPTRE_JSRS_Sounds"
             };
+
         units[] = {};
-        weapons[] = {
-            QCLASS(MHG16)
-        };
+        weapons[] = {QCLASS(VTR93_VINDICTA)};
         VERSION_CONFIG;
     };
 };
 
 #include "CfgWeapons.hpp"
 #include "CfgMagazines.hpp"
+#include "CfgMagazinesWells.hpp"
