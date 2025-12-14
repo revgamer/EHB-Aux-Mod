@@ -72,11 +72,7 @@ workshop = [
     "861133494", # JSRS Sound Mod
     "2931279278", # The Kuiper Engagements [TKE]
     "2695649037", # OPTRE JSRS Compat
-    "3421886703", # 505th Aux Mod
-   # "2511318948", # cTab NSWDG Edition
-   "894678801", # TFAR
-   "3554182227", # MSS Core
-   "3554208394", # Scope
+    "2511318948", # cTab NSWDG Edition
 ]
 presets = ["ebh_main"]
 dlc = []
