@@ -55,6 +55,9 @@ class CfgFunctions {
             class getNearbyPlayers {};
 
             class sortByDistance {};
+
+            // NEW: Map ping function
+            class createCasualtyPing {};
         };
 
         class EventHandlers {
@@ -63,9 +66,6 @@ class CfgFunctions {
             class throwGrenadeEH {};
             class throwGrenadeEHACE {};
             class unconsciousEH {};
-            class reloadMain {};
-            class reloadEH {};
-            class reloadEHACE {};
         };
     };
 };
@@ -97,9 +97,5 @@ class Extended_PostInit_EventHandlers {
     };
     class CWR_UnconciousEH {
         init = QUOTE(call CWR_fnc_unconsciousEH);
-    };
-
-    class CWR_ReloadEH {
-        init = QUOTE(if isClass (configFile >> 'CfgPatches' >> 'ace_common') then { call CWR_fnc_reloadEHACE; } else { call CWR_fnc_reloadEH; };);
     };
 };

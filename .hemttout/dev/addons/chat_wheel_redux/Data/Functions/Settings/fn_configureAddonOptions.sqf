@@ -2,6 +2,38 @@
 // Authors: DartRuffian, Revgamer
 
 // ============================================================================
+// VOICE LANGUAGE SELECTION
+// ============================================================================
+
+[
+    "CWR_Voice_Language",
+    "LIST",
+    ["Voice Language", "Select the language for voice lines. Server must have the language files."],
+    ["505th Expeditionary Force Aux Mod", "Voice Lines"],
+    [
+        ["en_US", "en_GB"],                 // values stored
+        ["American English", "British English"], // UI labels
+        0
+    ],
+    1, // isGlobal
+    {
+        params ["_value"];
+
+        // Cache selected language so fn_processTags can read it
+        missionNamespace setVariable ["CWR_voiceLang", _value];
+
+        ["CWR_Voice_Language changed to: %1", _value] call CWR_fnc_devLog;
+    },
+    false
+] call CBA_fnc_addSetting;
+
+// Optional: ensure a default exists even before user opens settings
+if (isNil { missionNamespace getVariable "CWR_voiceLang" }) then {
+    missionNamespace setVariable ["CWR_voiceLang", "en_US"];
+};
+
+
+// ============================================================================
 // CUSTOM MESSAGES (1-9)
 // ============================================================================
 

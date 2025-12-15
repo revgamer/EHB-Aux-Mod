@@ -1,101 +1,195 @@
+// Multi-Language Voice Lines Configuration
+// Added: NeedAmmo, EnemyInfantry, EnemyVehicle, EnemyAir, MedicalCheckReady, MedicalCheckWounded, MedicalCheckCasualties
+
 class CWR_VoiceLines {
-    class NeedMedic {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\NeedMedic\ArmorCantTakeIt.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\ArmorFailing.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\ArmorsComingApart.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\NeedAMedic.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\NotSureIfICanMakeIt.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\StartingToHurt.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\TroubleBreathing.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\ImHit.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\INeedAMedicOverHere.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\IRequireMedicalSupport.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\Pain.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\Pain2.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\Pain3.wss",
-            "ChatWheelRedux\Data\Audio\NeedMedic\Pain4.wss"
+
+    // ============================================================================
+    // AMERICAN ENGLISH (en_US)
+    // ============================================================================
+    class en_US {
+        displayName = "American English";
+
+        class NeedMedic {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\NeedMedic\AM_HitMedic.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedMedic\AM_ImHit.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedMedic\AM_ImHurtBad.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedMedic\AM_ImWounded.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedMedic\AM_NeedMedic.ogg"
+            };
+        };
+
+        // NEW: Need Ammo
+        class NeedAmmo {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\NeedAmmo\INeedAmmo.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedAmmo\LowOnAmmo.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedAmmo\RunningLow.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedAmmo\NeedResupply.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\NeedAmmo\OutOfAmmo.ogg"
+            };
+        };
+
+        // NEW: Enemy Infantry Contact
+        class EnemyInfantry {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\EnemyInfantry.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\HostileInfantry.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\ContactInfantry.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\EnemyTroopsSpotted.ogg"
+            };
+        };
+
+        // NEW: Enemy Vehicle Contact
+        class EnemyVehicle {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\EnemyVehicle.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\HostileVehicle.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\ContactVehicle.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\EnemyArmorSpotted.ogg"
+            };
+        };
+
+        // NEW: Enemy Air Contact
+        class EnemyAir {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\EnemyAir.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\HostileAircraft.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\ContactAir.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\EnemyContact\EnemyBirdInbound.ogg"
+            };
+        };
+
+        // NEW: Medical Check - Combat Ready
+        class MedicalCheckReady {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\CombatReady.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\ImGood.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\ReadyToFight.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\AllGoodHere.ogg"
+            };
+        };
+
+        // NEW: Medical Check - Wounded
+        class MedicalCheckWounded {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\ImWounded.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\ImHit.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\TookDamage.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\NeedTreatment.ogg"
+            };
+        };
+
+        // NEW: Medical Check - Casualties
+        class MedicalCheckCasualties {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\WehaveaCasualty.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\ManDown.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\CasualtyHere.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\MedicalCheck\NeedMedicAtMyPosition.ogg"
+            };
+        };
+
+        class ThrowGrenade {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\Throw\GrenadeDeployed.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\Throw\GrenadeOutTakeThis.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\Throw\MakeRoomGrenade.ogg"
+            };
+        };
+
+        class ThrowSmoke {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\Throw\SmokeCoverIncoming.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\Throw\SmokeGetReady.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\Throw\SmokeGrenade.ogg"
+            };
+        };
+
+        class Unconscious {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_US\Unconscious\AGoodDeathFriendlyDown.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\Unconscious\LostOneFriendlyDown.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\Unconscious\FriendlyDown.ogg",
+                "ChatWheelRedux\Data\Audio\en_US\Unconscious\ManDownStayTogether.ogg"
+            };
         };
     };
 
-    class NeedHelp {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\NeedHelp\INeedAssistance.wss",
-            "ChatWheelRedux\Data\Audio\NeedHelp\INeedAssistance2.wss",
-            "ChatWheelRedux\Data\Audio\NeedHelp\INeedBackup.wss",
-            "ChatWheelRedux\Data\Audio\NeedHelp\INeedReinforcementsOnMyPosition.wss",
-            "ChatWheelRedux\Data\Audio\NeedHelp\WhereAreThoseReinforcements.wss"
-        };
-    };
+    // ============================================================================
+    // BRITISH ENGLISH (en_GB)
+    // ============================================================================
+    class en_GB {
+        displayName = "British English";
 
-    class ThrowGrenade {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\Throw\GrenadeDeployed.wss",
-            "ChatWheelRedux\Data\Audio\Throw\GrenadeOutTakeThis.wss",
-            "ChatWheelRedux\Data\Audio\Throw\MakeRoomGrenade.wss"
+        class NeedMedic {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\NeedMedic\UK_HitMedic.ogg",
+                "ChatWheelRedux\Data\Audio\en_GB\NeedMedic\UK_ImHit.ogg",
+                "ChatWheelRedux\Data\Audio\en_GB\NeedMedic\UK_ImHurtBad.ogg",
+                "ChatWheelRedux\Data\Audio\en_GB\NeedMedic\UK_ImWounded.ogg",
+                "ChatWheelRedux\Data\Audio\en_GB\NeedMedic\UK_NeedMedic.ogg"
+            };
         };
-    };
 
-    class ThrowSmoke {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\Throw\SmokeCoverIncoming.wss",
-            "ChatWheelRedux\Data\Audio\Throw\SmokeGetReady.wss",
-            "ChatWheelRedux\Data\Audio\Throw\SmokeGrenade.wss"
+        class NeedAmmo {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\NeedAmmo\INeedAmmo.wss"
+            };
         };
-    };
 
-    class ThrowSquadShield {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\Throw\CoverDroppedMoveInside.wss",
-            "ChatWheelRedux\Data\Audio\Throw\ShieldDeployedInTheDome.wss",
-            "ChatWheelRedux\Data\Audio\Throw\ShieldUp.wss"
+        class EnemyInfantry {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\EnemyContact\EnemyInfantry.wss"
+            };
         };
-    };
 
-    class Unconscious {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\Unconscious\AGoodDeathFriendlyDown.wss",
-            "ChatWheelRedux\Data\Audio\Unconscious\CloneDownCloneDown.wss",
-            "ChatWheelRedux\Data\Audio\Unconscious\LostOneFriendlyDown.wss",
-            "ChatWheelRedux\Data\Audio\Unconscious\FriendlyDown.wss",
-            "ChatWheelRedux\Data\Audio\Unconscious\ManDownStayTogether.wss",
-            "ChatWheelRedux\Data\Audio\Unconscious\TrooperDown.wss"
+        class EnemyVehicle {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\EnemyContact\EnemyVehicle.wss"
+            };
         };
-    };
 
-    class Sorry {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\Sorry\IHopeTheyDontWriteAReport.wss",
-            "ChatWheelRedux\Data\Audio\Sorry\MyApologies.wss",
-            "ChatWheelRedux\Data\Audio\Sorry\Sorry.wss",
-            "ChatWheelRedux\Data\Audio\Sorry\Sorry2.wss",
-            "ChatWheelRedux\Data\Audio\Sorry\SorryAboutThat.wss",
-            "ChatWheelRedux\Data\Audio\Sorry\SorryIHopeTheyDontWriteAReport.wss",
-            "ChatWheelRedux\Data\Audio\Sorry\SorrySir.wss"
+        class EnemyAir {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\EnemyContact\EnemyAir.wss"
+            };
         };
-    };
 
-    class Follow {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\Follow\AlrightSquadFollowMe.wss",
-            "ChatWheelRedux\Data\Audio\Follow\AlrightSquadFollowMe2.wss",
-            "ChatWheelRedux\Data\Audio\Follow\RallyUpAndFollowMe.wss",
-            "ChatWheelRedux\Data\Audio\Follow\SquadWithMe.wss",
-            "ChatWheelRedux\Data\Audio\Follow\WithMeBrothers.wss"
+        class MedicalCheckReady {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\MedicalCheck\CombatReady.wss"
+            };
         };
-    };
 
-    class ContactInfClose {
-        voiceLines[] = {
-            "ChatWheelRedux\Data\Audio\ContactInfClose\DroidForcesDangerClose.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\EnemyClankersApproaching.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\EnemyClankersSpotted.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\SeppiesClosingIn.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\WatchItWatchItDroidsNearby.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\WeHaveEnemyForcesWithinThePerimeter.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\WeHaveEnemyForcesWithinThePerimeter2.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\WeHaveHostileForcesNearby.wss",
-            "ChatWheelRedux\Data\Audio\ContactInfClose\WeHaveHostilesNearby.wss"
+        class MedicalCheckWounded {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\MedicalCheck\ImWounded.wss"
+            };
+        };
+
+        class MedicalCheckCasualties {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\MedicalCheck\WehaveaCasualty.wss"
+            };
+        };
+
+        class ThrowGrenade {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\Throw\GrenadeDeployed.wss"
+            };
+        };
+
+        class ThrowSmoke {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\Throw\SmokeCoverIncoming.wss"
+            };
+        };
+
+        class Unconscious {
+            voiceLines[] = {
+                "ChatWheelRedux\Data\Audio\en_GB\Unconscious\FriendlyDown.wss"
+            };
         };
     };
 };

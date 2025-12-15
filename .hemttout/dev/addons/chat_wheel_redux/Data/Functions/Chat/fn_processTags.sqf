@@ -34,16 +34,33 @@ _message = switch (true) do {
         [_message] spawn CWR_OpenLauncherMenu;
     };
 
-    // Voice line tag, plays random sound from config class that matches the name in the tag
-    // Checks for "[vl-ABC] ..."
-    // regexMatch checks if the entire string matches the pattern, not just a part of it
+    case ("[ping]" in _message): {
+        private _playerPos = getPosATL player;
+        private _nearbyPlayers = [_playerPos, CWR_Voice_VoiceRadius, false] call CWR_fnc_getNearbyPlayers;
+
+        {
+            [_playerPos, name player] remoteExecCall ["CWR_fnc_createCasualtyPing", _x];
+        } forEach _nearbyPlayers;
+
+        _message = [_message, "[ping]", ""] call CWR_fnc_stringReplace;
+        _message call CWR_fnc_processTags;
+    };
+
     case (count (_message call CWR_fnc_findAllVoicelineTags) > 0): {
-        private _tag = _message call CWR_fnc_findAllVoicelineTags select 0 select 0 select 0; // Returns nested array
+        private _tag = _message call CWR_fnc_findAllVoicelineTags select 0 select 0 select 0;
         private _configName = _tag call CWR_fnc_getConfigNameFromTag;
 
         _message = [_message, _tag, ""] call CWR_fnc_stringReplace;
 
-        private _config = (configFile >> "CWR_VoiceLines" >> _configName);
+        private _lang = missionNamespace getVariable ["CWR_voiceLang", "en_US"];
+
+            private _config = (configFile >> "CWR_VoiceLines" >> _lang >> _configName);
+
+            // Fallback if GB is missing a tag
+            if (!isClass _config) then {
+                _config = (configFile >> "CWR_VoiceLines" >> "en_US" >> _configName);
+            };
+
         if (isClass _config) then {
             if ((time - (player getVariable ["CWR_playerLastUsedVoice", -CWR_Voice_CoolDown])) > CWR_Voice_CoolDown ) then {
                 private _voiceLine = selectRandom getArray (_config >> "voiceLines");
@@ -56,7 +73,7 @@ _message = switch (true) do {
             };
         };
 
-        _message call CWR_fnc_processTags; // Used to check for further tags
+        _message call CWR_fnc_processTags;
     };
 
     default {
