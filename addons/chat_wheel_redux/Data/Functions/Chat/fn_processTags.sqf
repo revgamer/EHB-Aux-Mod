@@ -10,6 +10,11 @@ _message = switch (true) do {
         [_message] spawn CWR_OpenStatusMenu;
     };
 
+    case ("[enemy]" in _message): {
+        [_message] spawn CWR_OpenEnemyMenu;
+    };
+
+
     case ("[bearing]" in _message): {
         private _bearing = round direction player;
         _message = [_message, "[bearing]", str _bearing] call CWR_fnc_stringReplace;

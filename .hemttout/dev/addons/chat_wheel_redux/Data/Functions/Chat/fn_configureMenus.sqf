@@ -6,7 +6,7 @@ CWR_messagesHashMap =
         ["Medic", "[vl-NeedMedic]I need a medic!"],
         ["Ammo", "[vl-NeedAmmo]I need ammo for my [weapon]!"],
         ["Enemy Contact", "[enemy]"],
-        ["Med Check", "[vl-AskStatus]ACE check!"],
+        ["Med Check", "[vl-AskStatus]Medical check!"],
         ["Med Response", "[status]"],
         ["Custom 1", "Default Message"],
         ["Custom 2", "Default Message"],
@@ -35,15 +35,16 @@ CWR_OpenEnemyMenu = {
     params ["_message"];
     sleep 0.05;
 
-    private _enemyList = ["Enemy Infantry", "Enemy Vehicle", "Enemy Air"];
-    CWR_enemyMessageList = [
-        "[vl-EnemyInfantry]Enemy Infantry, bearing [bearing]!",
-        "[vl-EnemyVehicle]Enemy Vehicle, bearing [bearing]!",
-        "[vl-EnemyAir]Enemy Air, bearing [bearing]!"
-    ];
+    private _enemyList = ["Infantry", "Vehicle", "Air"];
+
+    // Build per-option messages by replacing [enemy] in the original message
+    // This mirrors your Status menu pattern exactly.
+    CWR_enemyMessageList = _enemyList apply {
+        [_message, "[enemy]", format ["[vl-Enemy%1]Enemy %1, bearing [bearing]!", _x]] call CWR_fnc_stringReplace
+    };
 
     [
-        "Enemy Contact Type",
+        "Enemy Type",
         "CWR_Menu_Enemy",
         _enemyList,
         "",

@@ -7,7 +7,7 @@
 if (!hasInterface) exitWith {};
 
 // === STEALTH MASK CONFIG ===
-GVAR(maskClass) = QCLASS(Balaclava_OPTREHUD);
+GVAR(maskClass) = QCLASS(Stealth_Balaclava);
 GVAR(hudActive) = false;
 GVAR(lastGoggles) = "";
 
