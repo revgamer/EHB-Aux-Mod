@@ -1,20 +1,11 @@
-class Mode_SemiAuto;
+class WeaponSlotsInfo;
+class CowsSlot;
+class PointerSlot;
+class MuzzleSlot;
+class UnderBarrelSlot;
 
 class CfgWeapons {
-    class Rifle_Base_F;
-    class OPTRE_LongRifle_Base: Rifle_Base_F {
-        class WeaponSlotsInfo;
-    };
-    class WRS_Weapon_Sniper_Bolt: OPTRE_LongRifle_Base {
-        class WeaponSlotsInfo: WeaponSlotsInfo {
-            class CowsSlot;
-            class PointerSlot;
-            class MuzzleSlot;
-            class UnderBarrelSlot;
-        };
-
-        class Single: Mode_SemiAuto {};
-    };
+        class WRS_Weapon_Sniper_Bolt;
 
     // ================================
     // VTR-93 Vindicta - Sniper Rifle
@@ -62,15 +53,6 @@ class CfgWeapons {
             class UnderBarrelSlot: UnderBarrelSlot {
                 compatibleItems[] = {};
             };
-        };
-
-        //
-        // Semi (single shot) - accurate, used for long-range engagements
-        //
-        class Single: Single {
-            displayName = "Single";
-            reloadTime = 0.12;          // semi delay (comfortable semi follow-up)
-            dispersion = 0.00012;       // very tight for single shots at range
         };
     };
 };

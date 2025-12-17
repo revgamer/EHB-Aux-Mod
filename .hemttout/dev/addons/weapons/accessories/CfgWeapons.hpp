@@ -2,18 +2,17 @@ class CfgWeapons
 {
     // Parent classes
     class acc_pointer_IR;
-    class ItemCore;
     class optic_Aco;
     class muzzle_snds_acp;
     class InventoryFlashLightItem_Base_F;
     class InventoryMuzzleItem_Base_F;
 
     // Scope base classes
-    class OPTRE_SRS99C_Scope: ItemCore {
+    class OPTRE_SRS99C_Scope {
         class ItemInfo;
     };
 
-    class OPTRE_SRS99_Scope: optic_Aco {  // Fixed: was ItemCore, should be optic_Aco
+    class OPTRE_SRS99_Scope: optic_Aco {
         class ItemInfo;
     };
 
