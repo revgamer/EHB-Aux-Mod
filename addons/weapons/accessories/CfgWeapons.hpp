@@ -8,7 +8,7 @@ class CfgWeapons
     class InventoryMuzzleItem_Base_F;
 
     // Scope base classes
-    class OPTRE_SRS99C_Scope {
+    class OPTRE_SRS99C_Scope: optic_Aco {
         class ItemInfo;
     };
 
