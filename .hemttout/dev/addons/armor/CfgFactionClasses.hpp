@@ -1,9 +1,9 @@
 class CfgFactionClasses {
-    class FACTION(ONI) {
-        displayName = "[EHB] Inteligence";
+    class FACTION(EHB) {
+        displayName = "[EHB] Office of Naval Inteligence";
     };
 
     class FACTION(505th) {
-        displayname = "[EHB] Echo Hand Battalion";
+        displayName = "[EHB] 505th Expeditionary Force";
     };
 };

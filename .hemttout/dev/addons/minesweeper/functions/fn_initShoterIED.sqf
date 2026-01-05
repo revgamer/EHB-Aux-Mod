@@ -1,0 +1,1 @@
+call compile preprocessFileLineNumbers "\BLU\EHB\addons\minesweeper\IED\init.sqf";

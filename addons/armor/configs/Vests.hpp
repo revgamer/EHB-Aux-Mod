@@ -1,9 +1,9 @@
 class CLASS(CE_Armour_Vest): CLASS(CE_Marine_Vest_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor";
+	displayName = "[505th] Marine Armor";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -12,11 +12,11 @@ class CLASS(CE_Armour_Vest): CLASS(CE_Marine_Vest_Base) {
         };
 };
 class CLASS(CE_Armour_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor (No Forearms)";
+	displayName = "[505th] Marine Armor (No Forearms)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -25,11 +25,11 @@ class CLASS(CE_Armour_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
         };
 };
 class CLASS(CE_Armour_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor (No Forearms + Shoulders)";
+	displayName = "[505th] Marine Armor (No Forearms + Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -38,11 +38,11 @@ class CLASS(CE_Armour_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
         };
 };
 class CLASS(CE_Armour_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor (No Shoulders)";
+	displayName = "[505th] Marine Armor (No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -51,11 +51,11 @@ class CLASS(CE_Armour_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
         };
 };
 class CLASS(CE_Armour_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor (Pouches)";
+	displayName = "[505th] Marine Armor (Pouches)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -64,11 +64,11 @@ class CLASS(CE_Armour_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor (Pouches + No Forearms)";
+	displayName = "[505th] Marine Armor (Pouches + No Forearms)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -77,11 +77,11 @@ class CLASS(CE_Armour_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor (Pouches + No Forearms/Shoulders)";
+	displayName = "[505th] Marine Armor (Pouches + No Forearms/Shoulders)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -90,11 +90,11 @@ class CLASS(CE_Armour_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Marine Armor (Pouches + No Shoulders)";
+	displayName = "[505th] Marine Armor (Pouches + No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -104,11 +104,11 @@ class CLASS(CE_Armour_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Base) {
 };
 /////////////////////////////Corpsman Vests/////////////////////////////
 class CLASS(CE_Armour_Corpsman_Vest): CLASS(CE_Marine_Vest_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor";
+	displayName = "[505th] Corpsman Armor";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -117,11 +117,11 @@ class CLASS(CE_Armour_Corpsman_Vest): CLASS(CE_Marine_Vest_Base) {
         };
 };
 class CLASS(CE_Armour_Corpsman_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor (No Forearms)";
+	displayName = "[505th] Corpsman Armor (No Forearms)";
 	hiddenSelections[] =  {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -130,11 +130,11 @@ class CLASS(CE_Armour_Corpsman_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
         };
 };
 class CLASS(CE_Armour_Corpsman_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor (No Forearms + Shoulders)";
+	displayName = "[505th] Corpsman Armor (No Forearms + Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -143,11 +143,11 @@ class CLASS(CE_Armour_Corpsman_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
         };
 };
 class CLASS(CE_Armour_Corpsman_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor (No Shoulders)";
+	displayName = "[505th] Corpsman Armor (No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -156,11 +156,11 @@ class CLASS(CE_Armour_Corpsman_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
         };
 };
 class CLASS(CE_Armour_Corpsman_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor (Pouches)";
+	displayName = "[505th] Corpsman Armor (Pouches)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -169,11 +169,11 @@ class CLASS(CE_Armour_Corpsman_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_Corpsman_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor (Pouches + No Forearms)";
+	displayName = "[505th] Corpsman Armor (Pouches + No Forearms)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -182,11 +182,11 @@ class CLASS(CE_Armour_Corpsman_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base
         };
 };
 class CLASS(CE_Armour_Corpsman_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor (Pouches + No Forearms/Shoulders)";
+	displayName = "[505th] Corpsman Armor (Pouches + No Forearms/Shoulders)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -196,11 +196,11 @@ class CLASS(CE_Armour_Corpsman_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_
 };
 class CLASS(CE_Armour_Corpsman_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Base)
 {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Corpsman Armor (Pouches + No Shoulders)";
+	displayName = "[505th] Corpsman Armor (Pouches + No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Medic_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -210,11 +210,11 @@ class CLASS(CE_Armour_Corpsman_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Base
 };
 ////////////////////////////////SL Vests////////////////////////////////
 class CLASS(CE_Armour_SL_Vest): CLASS(CE_Marine_Vest_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor";
+	displayName = "[505th] Squad Lead Armor";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -223,11 +223,11 @@ class CLASS(CE_Armour_SL_Vest): CLASS(CE_Marine_Vest_Base) {
         };
 };
 class CLASS(CE_Armour_SL_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor (No Forearms)";
+	displayName = "[505th] Squad Lead Armor (No Forearms)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -236,11 +236,11 @@ class CLASS(CE_Armour_SL_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
         };
 };
 class CLASS(CE_Armour_SL_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor (No Forearms + Shoulders)";
+	displayName = "[505th] Squad Lead Armor (No Forearms + Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -249,11 +249,11 @@ class CLASS(CE_Armour_SL_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
         };
 };
 class CLASS(CE_Armour_SL_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor (No Shoulders)";
+	displayName = "[505th] Squad Lead Armor (No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -262,11 +262,11 @@ class CLASS(CE_Armour_SL_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
         };
 };
 class CLASS(CE_Armour_SL_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor (Pouches)";
+	displayName = "[505th] Squad Lead Armor (Pouches)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -275,11 +275,11 @@ class CLASS(CE_Armour_SL_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_SL_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor (Pouches + No Forearms)";
+	displayName = "[505th] Squad Lead Armor (Pouches + No Forearms)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -288,11 +288,11 @@ class CLASS(CE_Armour_SL_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_SL_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor (Pouches + No Forearms/Shoulders)";
+	displayName = "[505th] Squad Lead Armor (Pouches + No Forearms/Shoulders)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -301,11 +301,11 @@ class CLASS(CE_Armour_SL_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) 
         };
 };
 class CLASS(CE_Armour_SL_Vest_NSPouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Squad Lead Armor (Pouches + No Shoulders)";
+	displayName = "[505th] Squad Lead Armor (Pouches + No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\SL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -315,11 +315,11 @@ class CLASS(CE_Armour_SL_Vest_NSPouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
 };
 ////////////////////////////////PL Vests////////////////////////////////
 class CLASS(CE_Armour_PL_Vest): CLASS(CE_Marine_Vest_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor";
+	displayName = "[505th] Platoon Lead Armor";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -328,11 +328,11 @@ class CLASS(CE_Armour_PL_Vest): CLASS(CE_Marine_Vest_Base) {
         };
 };
 class CLASS(CE_Armour_PL_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor (No Forearms)";
+	displayName = "[505th] Platoon Lead Armor (No Forearms)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -341,11 +341,11 @@ class CLASS(CE_Armour_PL_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
         };
 };
 class CLASS(CE_Armour_PL_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor (No Forearms + Shoulders)";
+	displayName = "[505th] Platoon Lead Armor (No Forearms + Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -354,11 +354,11 @@ class CLASS(CE_Armour_PL_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
         };
 };
 class CLASS(CE_Armour_PL_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor (No Shoulders)";
+	displayName = "[505th] Platoon Lead Armor (No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -367,11 +367,11 @@ class CLASS(CE_Armour_PL_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
         };
 };
 class CLASS(CE_Armour_PL_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor (Pouches)";
+	displayName = "[505th] Platoon Lead Armor (Pouches)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -380,11 +380,11 @@ class CLASS(CE_Armour_PL_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_PL_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor (Pouches + No Forearms)";
+	displayName = "[505th] Platoon Lead Armor (Pouches + No Forearms)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -393,11 +393,11 @@ class CLASS(CE_Armour_PL_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_PL_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor (Pouches + No Forearms/Shoulders)";
+	displayName = "[505th] Platoon Lead Armor (Pouches + No Forearms/Shoulders)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -406,11 +406,11 @@ class CLASS(CE_Armour_PL_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) 
         };
 };
 class CLASS(CE_Armour_PL_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Platoon Lead Armor (Pouches + No Shoulders)";
+	displayName = "[505th] Platoon Lead Armor (Pouches + No Shoulders)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\PL_Armour_co.paa),"\Rogue_CEMarine\data\Rogue_CEPouches_co.paa"};
     class ItemInfo: ItemInfo {
@@ -420,11 +420,11 @@ class CLASS(CE_Armour_PL_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Base) {
 };
 ////////////////////////////////FR Vests////////////////////////////////
 class CLASS(CE_Armour_ForceRecon_Vest): CLASS(CE_Marine_Vest_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor Armor";
+	displayName = "[505th] Force Recon Armor Armor";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -433,11 +433,11 @@ class CLASS(CE_Armour_ForceRecon_Vest): CLASS(CE_Marine_Vest_Base) {
         };
 };
 class CLASS(CE_Armour_ForceRecon_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor Armor (No Forearms)";
+	displayName = "[505th] Force Recon Armor Armor (No Forearms)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -446,11 +446,11 @@ class CLASS(CE_Armour_ForceRecon_Vest_V2): CLASS(CE_Marine_VestV2_Base) {
         };
 };
 class CLASS(CE_Armour_ForceRecon_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor (No Forearms + Shoulders)";
+	displayName = "[505th] Force Recon Armor (No Forearms + Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -459,11 +459,11 @@ class CLASS(CE_Armour_ForceRecon_Vest_NSV2): CLASS(CE_Marine_Vest_NSV2_Base) {
         };
 };
 class CLASS(CE_Armour_ForceRecon_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor Armor (No Shoulders)";
+	displayName = "[505th] Force Recon Armor Armor (No Shoulders)";
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa)};
     class ItemInfo: ItemInfo {
@@ -472,11 +472,11 @@ class CLASS(CE_Armour_ForceRecon_Vest_NS): CLASS(CE_Marine_Vest_NS_Base) {
         };
 };
 class CLASS(CE_Armour_ForceRecon_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor Armor (Pouches)";
+	displayName = "[505th] Force Recon Armor Armor (Pouches)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa),QPATHTOF(data\backpacks\FR_Pouches_co.paa)};
     class ItemInfo: ItemInfo {
@@ -485,11 +485,11 @@ class CLASS(CE_Armour_ForceRecon_Vest_Pouch): CLASS(CE_Marine_Vest_Pouch_Base) {
         };
 };
 class CLASS(CE_Armour_ForceRecon_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor Armor (Pouches + No Forearms)";
+	displayName = "[505th] Force Recon Armor Armor (Pouches + No Forearms)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa),QPATHTOF(data\backpacks\FR_Pouches_co.paa)};
     class ItemInfo: ItemInfo {
@@ -498,11 +498,11 @@ class CLASS(CE_Armour_ForceRecon_Vest_V2Pouch): CLASS(CE_Marine_Vest_V2_Pouch_Ba
         };
 };
 class CLASS(CE_Armour_ForceRecon_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor Armor (Pouches + No Forearms/Shoulders)";
+	displayName = "[505th] Force Recon Armor Armor (Pouches + No Forearms/Shoulders)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa),QPATHTOF(data\backpacks\FR_Pouches_co.paa)};
     class ItemInfo: ItemInfo {
@@ -511,11 +511,11 @@ class CLASS(CE_Armour_ForceRecon_Vest_NSV2Pouch): CLASS(CE_Marine_Vest_NSV2_Pouc
         };
 };
 class CLASS(CE_Armour_ForceRecon_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Base) {
-	author = "EHB Aux Team";
+	author = "505th Aux Team";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-	displayName = "[EHB] Force Recon Armor Armor (Pouches + No Shoulders)";
+	displayName = "[505th] Force Recon Armor Armor (Pouches + No Shoulders)";
 	hiddenSelections[] = {"camo","camo1","camo2"};
 	hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\standard\Force_Recon_Armour_co.paa),QPATHTOF(data\backpacks\FR_Pouches_co.paa)};
     class ItemInfo: ItemInfo {
@@ -525,11 +525,11 @@ class CLASS(CE_Armour_ForceRecon_Vest_NSPouch): CLASS(CE_Marine_Vest_NS_Pouch_Ba
 };
 /////////////////////////////Scout Vests////////////////////////////////
 class CLASS(CE_Armour_Scout_Vest): CLASS(CE_Scout_Vest_Base) {
-    author = "EHB Aux Team";
+    author = "505th Aux Team";
     scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
-    displayName = "[EHB] Scout Armor";
+    displayName = "[505th] Scout Armor";
     hiddenSelections[] = {"camo","camo1"};
     hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPaddingScout_co.paa","\Rogue_CEMarine\data\Rogue_CEArmour_co.paa"};
     class ItemInfo: ItemInfo {
@@ -539,7 +539,7 @@ class CLASS(CE_Armour_Scout_Vest): CLASS(CE_Scout_Vest_Base) {
 };
 //////////////////////////////Custom Vests//////////////////////////////
 class CLASS(CE_Vest_Adamant_Pouches): CLASS(CE_Marine_Vest_Pouch_Base) {
-    displayName = "[EHB] Custom Armor (Adamant)";
+    displayName = "[505th] Custom Armor (Adamant)";
     scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -551,7 +551,7 @@ class CLASS(CE_Vest_Adamant_Pouches): CLASS(CE_Marine_Vest_Pouch_Base) {
         };
 };
 class CLASS(CE_Vest_Crawford): CLASS(CE_Marine_Vest_Base) {
-    displayName = "[EHB] Custom Armor (Crawford)";
+    displayName = "[505th] Custom Armor (Crawford)";
     scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -563,7 +563,7 @@ class CLASS(CE_Vest_Crawford): CLASS(CE_Marine_Vest_Base) {
         };
 };
 class CLASS(CE_Vest_Hoffman): CLASS(CE_Marine_Vest_Pouch_Base) {
-    displayName = "[EHB] Custom Armor (Hoffman)";
+    displayName = "[505th] Custom Armor (Hoffman)";
     scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -575,7 +575,7 @@ class CLASS(CE_Vest_Hoffman): CLASS(CE_Marine_Vest_Pouch_Base) {
         };
 };
 class CLASS(CE_Vest_Oliver): CLASS(CE_Marine_Vest_Base) {
-    displayName = "[EHB] Custom Armor (Oliver)";
+    displayName = "[505th] Custom Armor (Oliver)";
     scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -588,7 +588,7 @@ class CLASS(CE_Vest_Oliver): CLASS(CE_Marine_Vest_Base) {
 };
 
 class CLASS(CE_Vest_Kain): CLASS(CE_Marine_Vest_Base) {
-    displayName = "[EHB] Custom Armor (Kain)";
+    displayName = "[505th] Custom Armor (Kain)";
     scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -600,8 +600,8 @@ class CLASS(CE_Vest_Kain): CLASS(CE_Marine_Vest_Base) {
         };
 };
 
-class CLASS(CE_Vest_FR_Davy): CLASS(CE_Marine_VestV2_Base) {
-    displayName = "[EHB] Custom Armor (Rend)";
+class CLASS(CE_Vest_FR_Davy): CLASS(CE_Marine_Vest_NSV2_Base) {
+    displayName = "[505th] Custom Armor (Rend)";
 	scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -613,9 +613,22 @@ class CLASS(CE_Vest_FR_Davy): CLASS(CE_Marine_VestV2_Base) {
         };
 };
 
+class CLASS(CE_Vest_Doc): CLASS(CE_Marine_Vest_Base) {
+    displayName = "[505th] Custom Armor (Doc)";
+    scope = 2;
+    scopeCurator = 2;
+    scopeArsenal = 2;
+    hiddenSelections[] = {"camo","camo1"};
+    hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEPadding_co.paa",QPATHTOF(data\vests\ce\custom\Doc_Armor_co.paa)};
+    class ItemInfo: ItemInfo {
+            containerClass = "Supply100";
+            vestType = "Rebreather";
+        };
+};
+
 ///////////////////////////////Pilot Vest///////////////////////////////
 class CLASS(Pilot_Vest): CLASS(Pilot_Vest_Base) {
-    displayName = "[EHB] Pilot Vest";
+    displayName = "[505th] Pilot Vest";
     scope = 2;
     scopeCurator = 2;
     scopeArsenal = 2;
@@ -626,7 +639,7 @@ class CLASS(Pilot_Vest): CLASS(Pilot_Vest_Base) {
 };
 /////////////////////////////Black Ops Vest/////////////////////////////
 class CLASS(BlackOps_Vest): CLASS(BlackOps_Vest_Base) {
-    displayName = "[EHB] Black Ops Vest";
+    displayName = "[505th] Black Ops Vest";
     scope = 0;
     scopeCurator = 0;
     scopeArsenal = 0;

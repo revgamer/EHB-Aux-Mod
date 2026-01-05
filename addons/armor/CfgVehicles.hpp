@@ -21,7 +21,7 @@ class CfgVehicles {
         SCOPE_PRIVATE;
         author = AUTHOR;
 
-        faction = QFACTION(505th);
+        faction = QFACTION(EHB);
 
         displayName = "Marine Rolled (Base)";
         uniformClass = QCLASS(Uniform_CE_Rolled);
@@ -34,7 +34,7 @@ class CfgVehicles {
         SCOPE_PRIVATE;
         author = AUTHOR;
 
-        faction = QFACTION(505th);
+        faction = QFACTION(EHB);
 
         displayName = "Pilot (Base)";
         uniformClass = QCLASS(Uniform_Pilot);

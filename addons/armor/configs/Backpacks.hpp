@@ -1,6 +1,6 @@
 class CLASS(Backpack_CE): CLASS(Backpack_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Combat Pack [Grey]";
+        author = "505th Aux Team";
+        displayName = "[505th] Combat Pack [Grey]";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -8,8 +8,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         hiddenSelectionsTextures[] = {QPATHTOF(data\backpacks\505th_BackpackGrey_co.paa),QPATHTOF(data\backpacks\505th_PouchesGrey_co.paa)};
     };
     class CLASS(Backpack_CE_505): CLASS(Backpack_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Combat Pack [Green]";
+        author = "505th Aux Team";
+        displayName = "[505th] Combat Pack [Green]";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -18,8 +18,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
     };
     class CLASS(Backpack_CE_FR): CLASS(Backpack_Base) {
         SCOPE_PUBLIC;
-        author = "EHB Aux Team";
-        displayName = "[EHB] Combat Pack [Force Recon]";
+        author = "505th Aux Team";
+        displayName = "[505th] Combat Pack [Force Recon]";
         hiddenSelections[] = {"camo","camo1"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\backpacks\FR_Backpack_co.paa),QPATHTOF(data\backpacks\FR_Pouches_co.paa)};
     };
@@ -128,8 +128,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         };
     };
     class CLASS(BackpackLR_CE): CLASS(BackpackLR_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Combat Pack LR [Grey]";
+        author = "505th Aux Team";
+        displayName = "[505th] Combat Pack LR [Grey]";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -137,8 +137,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         hiddenSelectionsTextures[] = {QPATHTOF(data\backpacks\505th_BackpackGrey_co.paa),QPATHTOF(data\backpacks\505th_PouchesGrey_co.paa)};
     };
     class CLASS(BackpackLR_CE_505): CLASS(BackpackLR_CE) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Combat Pack LR [Green]";
+        author = "505th Aux Team";
+        displayName = "[505th] Combat Pack LR [Green]";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -146,8 +146,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         hiddenSelectionsTextures[] = {QPATHTOF(data\backpacks\505th_Backpack_co.paa),QPATHTOF(data\backpacks\505th_Pouches_co.paa)};
     };
     class CLASS(Backpack_LR_CE_FR): CLASS(BackpackLR_CE) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Combat Pack LR [Force Recon]";
+        author = "505th Aux Team";
+        displayName = "[505th] Combat Pack LR [Force Recon]";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -155,8 +155,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         hiddenSelectionsTextures[] = {QPATHTOF(data\backpacks\FR_Backpack_co.paa),QPATHTOF(data\backpacks\FR_Pouches_co.paa)};
     };
     class CLASS(Invisible_Backpack_CE): CLASS(Backpack_Invis_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Invisible Backpack";
+        author = "505th Aux Team";
+        displayName = "[505th] Invisible Backpack";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -164,8 +164,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         hiddenSelectionsTextures[] = {"\A3\weapons_f\ammoboxes\bags\data\backpack_small_co.paa"};
     };
     class CLASS(LR_Antenna_CE): CLASS(LR_Antenna_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] LR Antenna";
+        author = "505th Aux Team";
+        displayName = "[505th] LR Antenna";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -173,8 +173,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEAntenna_co.paa"};
     };
     class CLASS(ScoutBackpack_CE): CLASS(Scout_Backpack_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Scout Pack";
+        author = "505th Aux Team";
+        displayName = "[505th] Scout Pack";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -182,8 +182,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         hiddenSelectionsTextures[] = {"\Rogue_CEMarine\data\Rogue_CEBackpack_co.paa"};
     };
     class CLASS(MedicalBackpack): CLASS(Medical_Backpack_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Medical Backpack";
+        author = "505th Aux Team";
+        displayName = "[505th] Medical Backpack";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -249,8 +249,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         };
     };
     class CLASS(Pilot_Backpack): CLASS(Pilot_Backpack_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Pilot Pack";
+        author = "505th Aux Team";
+        displayName = "[505th] Pilot Pack";
         scope = 2;
         scopeCurator = 2;
         scopeArsenal = 2;
@@ -294,8 +294,8 @@ class CLASS(Backpack_CE): CLASS(Backpack_Base) {
         };
     };
     class CLASS(BlackOps_Backpack): CLASS(BlackOps_Backpack_Base) {
-        author = "EHB Aux Team";
-        displayName = "[EHB] Black Ops Backpack";
+        author = "505th Aux Team";
+        displayName = "[505th] Black Ops Backpack";
         scope = 0;
         scopeCurator = 0;
         scopeArsenal = 0;

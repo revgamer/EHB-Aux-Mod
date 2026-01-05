@@ -12,10 +12,12 @@ GVAR(hudActive) = false;
 GVAR(lastGoggles) = "";
 
 // === MEDICAL SCANNER CONFIG ===
-GVAR(medGlassesClass) = "EHB_Glasses_MedScanner";
+GVAR(medGlassesClass) = "EHB_Glasses_MedScanner";  // or OLI_Glasses_MedScanner for 505th
 GVAR(scannerActive) = false;
 GVAR(vitalsEnabled) = false;
-GVAR(scannerPFH) = -1;
+GVAR(scannerRunning) = false;    // <-- ADD
+GVAR(scannerEnabled) = false;    // <-- ADD
+GVAR(scannerEH) = -1;            // <-- ADD
 
 [{!isNull player}, {
 
@@ -156,9 +158,6 @@ GVAR(scannerPFH) = -1;
 // Range: 25m overhead icons, 5m detailed vitals
 // ========================================================================
 
-// ========================================================================
-// Medical status classification
-// ========================================================================
 GVAR(fnc_getMedicalStatus) = {
     params ["_unit"];
 
@@ -441,10 +440,11 @@ GVAR(fnc_startScanner) = {
             private _result = [_unit] call GVAR(fnc_getMedicalStatus);
             _result params ["_status", "_color", "_text", "_severity", "_isDown"];
 
+            // Position - move above head
             private _pos = if (_isDown) then {
-                (getPos _unit) vectorAdd [0, 0, 1.5]
+                (getPos _unit) vectorAdd [0, 0, 1.2]
             } else {
-                (_unit modelToWorldVisual (_unit selectionPosition "spine3")) vectorAdd [0, 0, 0.4]
+                (_unit modelToWorldVisual (_unit selectionPosition "head")) vectorAdd [0, 0, 0.35]
             };
 
             private _icon = switch (_status) do {
@@ -455,8 +455,8 @@ GVAR(fnc_startScanner) = {
                 default          { "\A3\ui_f\data\IGUI\Cfg\Actions\ico_on_ca.paa" };
             };
 
-            drawIcon3D [_icon, _color, _pos, 1.2, 1.2, 0, "", 2, 0.04, "PuristaBold"];
-            drawIcon3D ["", _color, _pos vectorAdd [0, 0, -0.15], 0, 0, 0, _text, 2, 0.03, "PuristaMedium"];
+            drawIcon3D [_icon, _color, _pos, 0.6, 0.6, 0, "", 2, 0.025, "PuristaBold"];
+            drawIcon3D ["", _color, _pos vectorAdd [0, 0, -0.12], 0, 0, 0, _text, 2, 0.02, "PuristaMedium"];
 
         } forEach _nearUnits;
 

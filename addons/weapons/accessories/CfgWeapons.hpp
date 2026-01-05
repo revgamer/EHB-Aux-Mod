@@ -232,12 +232,12 @@ class CfgWeapons
                     useModelOptics = 1;
                     opticsDisplayName = "WFOV";
 
-                    memoryPointCamera = "eye2";
+                    memoryPointCamera = "opticView";
                     cameraDir = "";
 
                     opticsPPEffects[] = {"OpticsCHAbera1", "OpticsBlur1"};
                     opticsFlare = 1;
-                    opticsDisablePeripherialVision = 1;
+                    opticsDisablePeripherialVision = 0;
 
                     opticsZoomInit = "5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";
                     opticsZoomMax = "5 call (uiNamespace getVariable 'cba_optics_fnc_setOpticMagnificationHelper')";

@@ -1,6 +1,6 @@
 class CLASS(Uniform_CE): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Marine Uniform";
+author = "505th Aux Team";
+displayName = "[505th] Marine Uniform";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -12,8 +12,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_Rolled): CLASS(Uniform_CE_Rolled_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Marine Uniform (Rolled)";
+author = "505th Aux Team";
+displayName = "[505th] Marine Uniform (Rolled)";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -26,8 +26,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_Corpsman): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Corpsman Uniform";
+author = "505th Aux Team";
+displayName = "[505th] Corpsman Uniform";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -40,8 +40,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_Corpsman_Rolled): CLASS(Uniform_CE_Rolled_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Corpsman Uniform (Rolled)";
+author = "505th Aux Team";
+displayName = "[505th] Corpsman Uniform (Rolled)";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -54,8 +54,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_SL): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Squad Lead Uniform";
+author = "505th Aux Team";
+displayName = "[505th] Squad Lead Uniform";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -68,8 +68,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_SL_Rolled): CLASS(Uniform_CE_Rolled_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Squad Lead Uniform (Rolled) ";
+author = "505th Aux Team";
+displayName = "[505th] Squad Lead Uniform (Rolled) ";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -82,8 +82,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_PL): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Platoon Lead Uniform";
+author = "505th Aux Team";
+displayName = "[505th] Platoon Lead Uniform";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -96,8 +96,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_PL_Rolled): CLASS(Uniform_CE_Rolled_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Platoon Lead Uniform (Rolled) ";
+author = "505th Aux Team";
+displayName = "[505th] Platoon Lead Uniform (Rolled) ";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -110,8 +110,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_FR_CE): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Force Recon Uniform";
+author = "505th Aux Team";
+displayName = "[505th] Force Recon Uniform";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -124,8 +124,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Uniform_CE_FR_Rolled): CLASS(Uniform_CE_Rolled_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Force Recon Uniform (Rolled) ";
+author = "505th Aux Team";
+displayName = "[505th] Force Recon Uniform (Rolled) ";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -139,8 +139,8 @@ scopeArsenal = 2;
 };
 ////////////////CUSTOM_UNIFORMS////////////////
 class CLASS(Adamant_Uniform_CE): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Custom Uniform (Adamant)";
+author = "505th Aux Team";
+displayName = "[505th] Custom Uniform (Adamant)";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -153,8 +153,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Crawford_Uniform_CE): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Custom Uniform (Crawford)";
+author = "505th Aux Team";
+displayName = "[505th] Custom Uniform (Crawford)";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -167,8 +167,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Crawford_Uniform_Rolled_CE): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Custom Uniform (Crawford,Rolled)";
+author = "505th Aux Team";
+displayName = "[505th] Custom Uniform (Crawford,Rolled)";
 scope = 2;
 scopeCurator = 2;
 scopeArsenal = 2;
@@ -181,8 +181,8 @@ scopeArsenal = 2;
 	};
 };
 class CLASS(Oliver_Uniform_CE): CLASS(Uniform_CE_Base) {
-author = "EHB Aux Team";
-displayName = "[EHB] Custom Uniform (Oliver)";
+author = "505th Aux Team";
+displayName = "[505th] Custom Uniform (Oliver)";
 uniformType = "Neopren";
 scope = 2;
 scopeCurator = 2;
@@ -195,13 +195,28 @@ scopeArsenal = 2;
 		mass = 40;
 	};
 };
+class CLASS(Doc_Uniform_CE): CLASS(Uniform_CE_Base) {
+author = "505th Aux Team";
+displayName = "[505th] Custom Uniform (Doc)";
+uniformType = "Neopren";
+scope = 2;
+scopeCurator = 2;
+scopeArsenal = 2;
+	class ItemInfo: UniformItem
+	{
+		uniformClass = QCLASS(Marine_Doc_CE);
+        uniformType = "Neopren";
+		containerClass = "Supply150";
+		mass = 40;
+	};
+};
 /////////////////////Pilot Uniform/////////////////////
 class CLASS(Uniform_Pilot): CLASS(Uniform_Pilot_Base) {
    SCOPE_PUBLIC;
-    displayName = "[EHB] Pilot Uniform";
+    displayName = "[505th] Pilot Uniform";
 };
 ///////////////////Black Ops Uniform///////////////////
 class CLASS(Uniform_BlackOps): CLASS(Uniform_BlackOps_Base) {
    SCOPE_PRIVATE;
-    displayName = "[EHB] Black Ops Uniform";
+    displayName = "[505th] Black Ops Uniform";
 };
